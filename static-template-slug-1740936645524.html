@@ -1,0 +1,2025 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed May 14 2025 11:34:30 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="6803d7c8ce55f29638587899" data-wf-site="6803d7c8ce55f2963858782e" lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Page Template With Slots [ For components ]</title>
+  <meta content="| The Crown | We drive brands to become legendary storytellers" name="description">
+  <meta content="Page Template With Slots [ For components ]" property="og:title">
+  <meta content="| The Crown | We drive brands to become legendary storytellers" property="og:description">
+  <meta content="https://cdn.prod.website-files.com/6803d7c8ce55f2963858782e/6803d7c8ce55f2963858793f_f701f259c95506280e1f01e39009a945_OpenGraph%20image.png" property="og:image">
+  <meta content="Page Template With Slots [ For components ]" property="twitter:title">
+  <meta content="| The Crown | We drive brands to become legendary storytellers" property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/crown-new.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://use.typekit.net/til0lyh.js" type="text/javascript"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon"><!-- - Website Designed and Developed by Apogeo.studio - -->
+  <!--  Finsweet Cookie Consent  -->
+  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in"></script>
+  <style>
+  html, body { overscroll-behavior: none; }
+  input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*:focus {
+    outline: none;
+} 
+ </style>
+  <style>
+body .transition {display: block}
+.w-editor .transition {display: none;}
+.no-scroll-transition {overflow: hidden; position: relative;}
+</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+  <div class="page_wrap">
+    <div class="page_code_wrap">
+      <div class="page_code_base w-embed">
+        <style>
+:root {
+  --site--max-width: min(var(--site--width), 100%);
+  --container--main: calc(var(--site--max-width) - var(--site--margin) * 2);
+  --container--full: calc(100% - var(--site--margin) * 2);
+  --site--gutter-total: calc(var(--site--gutter) * (var(--site--column-count) - 1));
+  --column-width-outer--plus-gutter: calc( ( ( ( var(--container--main) - var(--site--gutter-total) ) / var(--site--column-count) ) + var(--site--gutter) ) );
+	--column-width-outer--1: calc(var(--column-width-outer--plus-gutter) - var(--site--gutter));
+  --container--small: calc( var(--column-width-outer--plus-gutter) * ( var(--site--column-count) - 2 ) - var(--site--gutter) );
+  --site--gutter-total: calc(var(--site--gutter) * (var(--site--column-count) - 1));
+  --column-width--1: calc(100% - var(--site--gutter-total)) / var(--site--column-count);
+  --column-width--plus-gutter: calc(var(--column-width--1) + var(--site--gutter));
+  --column-width--2: calc(var(--column-width--plus-gutter) * 2 - var(--site--gutter));
+  --column-width--3: calc(var(--column-width--plus-gutter) * 3 - var(--site--gutter));
+  --column-width--4: calc(var(--column-width--plus-gutter) * 4 - var(--site--gutter));
+  --column-width--5: calc(var(--column-width--plus-gutter) * 5 - var(--site--gutter));
+  --column-width--6: calc(var(--column-width--plus-gutter) * 6 - var(--site--gutter));
+  --column-width--7: calc(var(--column-width--plus-gutter) * 7 - var(--site--gutter));
+  --column-width--8: calc(var(--column-width--plus-gutter) * 8 - var(--site--gutter));
+  --column-width--9: calc(var(--column-width--plus-gutter) * 9 - var(--site--gutter));
+  --column-width--10: calc(var(--column-width--plus-gutter) * 10 - var(--site--gutter));
+  --column-width--11: calc(var(--column-width--plus-gutter) * 11 - var(--site--gutter));
+  --column-width--12: calc(var(--column-width--plus-gutter) * 12 - var(--site--gutter));
+  --column-margin--1: calc(var(--column-width--plus-gutter) * 1);
+  --column-margin--2: calc(var(--column-width--plus-gutter) * 2);
+  --column-margin--3: calc(var(--column-width--plus-gutter) * 3);
+  --column-margin--4: calc(var(--column-width--plus-gutter) * 4);
+  --column-margin--5: calc(var(--column-width--plus-gutter) * 5);
+  --column-margin--6: calc(var(--column-width--plus-gutter) * 6);
+  --column-margin--7: calc(var(--column-width--plus-gutter) * 7);
+  --column-margin--8: calc(var(--column-width--plus-gutter) * 8);
+  --column-margin--9: calc(var(--column-width--plus-gutter) * 9);
+  --column-margin--10: calc(var(--column-width--plus-gutter) * 10);
+  --column-margin--11: calc(var(--column-width--plus-gutter) * 11);
+  --column-margin--12: calc(var(--column-width--plus-gutter) * 12);
+  --breakout-start: [full-start] minmax(0, 1fr) [content-start];
+  --breakout-end: [content-end] minmax(0, 1fr) [full-end];
+  --grid-breakout-single: var(--breakout-start) minmax(0, var(--container--main)) var(--breakout-end);
+  --grid-breakout: var(--breakout-start) repeat(var(--site--column-count), minmax(0, var(--column-width-outer--1))) var(--breakout-end);
+  --grid-main: repeat(var(--site--column-count), minmax(0, 1fr));
+  --grid-1: repeat(1, minmax(0, 1fr));
+  --grid-2: repeat(2, minmax(0, 1fr));
+  --grid-3: repeat(3, minmax(0, 1fr));
+  --grid-4: repeat(4, minmax(0, 1fr));
+  --grid-5: repeat(5, minmax(0, 1fr));
+  --grid-6: repeat(6, minmax(0, 1fr));
+  --grid-7: repeat(7, minmax(0, 1fr));
+  --grid-8: repeat(8, minmax(0, 1fr));
+  --grid-9: repeat(9, minmax(0, 1fr));
+  --grid-10: repeat(10, minmax(0, 1fr));
+  --grid-11: repeat(11, minmax(0, 1fr));
+  --grid-12: repeat(12, minmax(0, 1fr));
+	--_typography---text-transform--none: none;
+	--_typography---text-transform--uppercase: uppercase;
+	--_typography---text-transform--captialize: capitalize;
+	--_typography---text-transform--lowercase: lowercase;
+  --align--start: start;
+  --align--center: center;
+  --align--end: end;
+}
+* {
+	vertical-align: bottom;
+}
+::before, ::after {
+	box-sizing: border-box;
+}
+html {
+	background-color: var(--_theme---background);
+}
+button {
+	background-color: unset;
+	padding: unset;
+	text-align: inherit;
+}
+button:not(:disabled) {
+	cursor: pointer;
+}
+video {
+	width: 100%;
+	object-fit: cover;
+}
+video.wf-empty {
+	padding: 0;
+}
+svg {
+	max-width: 100%;
+}
+section, header, footer {
+	position: relative;
+}
+@media (prefers-color-scheme: light) {
+	option {
+		color: black;
+	}
+}
+img::selection {
+	background: transparent;
+}
+/* Typography */
+body {
+	text-transform: var(--_text-style---text-transform);
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+/* Clear Defaults */
+a:not([class]) {
+	text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6,p,blockquote,label {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+	text-transform: inherit;
+	text-wrap: inherit;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/* Margin Trim */
+:is(.u-margin-trim, .u-rich-text) > :not(:not(.w-condition-invisible) ~ :not(.w-condition-invisible)) {
+	margin-top: 0;
+}
+:is(.u-margin-trim, .u-rich-text) > :not(:has(~ :not(.w-condition-invisible))) {
+	margin-bottom: 0;
+}
+.w-richtext a {
+	position: relative;
+	z-index: 4;
+}
+/* Line Height Trim */
+:is([class*="u-text-style-"], .u-rich-text :is(h1,h2,h3,h4,h5,h6,p))::before {
+	content: "";
+	display: table;
+	margin-bottom: calc(-0.5lh + var(--_text-style---trim-top));
+}
+:is([class*="u-text-style-"], .u-rich-text :is(h1,h2,h3,h4,h5,h6,p))::after {
+	content: "";
+	display: table;
+	margin-bottom: calc(-0.5lh + var(--_text-style---trim-bottom));
+}
+/* Line Clamp */
+.u-line-clamp-1, .u-line-clamp-2, .u-line-clamp-3, .u-line-clamp-4 {
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.u-line-clamp-2 { -webkit-line-clamp: 2; }
+.u-line-clamp-3 { -webkit-line-clamp: 3; }
+.u-line-clamp-4 { -webkit-line-clamp: 4; }
+/* Child Contain */
+.u-child-contain > * {
+	width: 100%;
+	max-width: inherit;
+  margin-inline: 0 !important;
+	margin-top: 0 !important;
+}
+/* Hide */
+.u-hide-if-empty:empty,
+.u-hide-if-empty:not(:has(> :not(.w-condition-invisible))),
+.u-hide-if-empty-cms:not(:has(.w-dyn-item)),
+.w-richtext[class*="u-text-style-"] > :not(h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol,span),
+.u-embed-js,
+.u-embed-css {
+	display: none !important;
+}
+/* Focus State */
+a, button, :where([tabindex]),
+.w-checkbox-input--inputType-custom,
+.w-form-formradioinput--inputType-custom {
+	outline-offset: var(--focus--offset-outer);
+}
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible,
+.w-checkbox:has(:focus-visible) .w-checkbox-input--inputType-custom,
+.w-radio:has(:focus-visible) .w-form-formradioinput--inputType-custom {
+	outline-color: var(--_theme---text);
+	outline-width: var(--focus--width);
+	outline-style: solid;
+}
+.w-checkbox-input--inputType-custom.w--redirected-focus,
+.w-form-formradioinput--inputType-custom.w--redirected-focus {
+	box-shadow: none;
+}
+/* Global / Clickable Component */
+.wf-design-mode .g_clickable_wrap {
+	z-index: 0;
+}
+.g_clickable_wrap a[href="#"] {
+	display: none;
+}
+.g_clickable_wrap a[href="#"] ~ button {
+	display: block;
+}
+.dropdown_wrap:focus-within .dropdown_height,
+.dropdown_wrap:hover .dropdown_height {
+	grid-template-rows: 1fr;
+}
+.dropdown_wrap:focus-within .dropdown_arrow,
+.dropdown_wrap:hover .dropdown_arrow {
+	transform: rotate(-180deg);
+}
+</style>
+      </div>
+      <div class="page_code_custom w-embed">
+        <style>
+  .char {
+    display: inline;
+    white-space: pre;
+    will-change: transform, opacity, filter;
+  }
+  .word {
+    display: inline;
+    white-space: pre;
+  }
+  .line {
+    display: block;
+  }
+.line-inner {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+@media screen and (max-width: 991px) {
+  /* Anula el balanceo en Webflow para todos los h1–h6 y p de rich-text */
+  .u-text-style-h1,
+  .u-text-style-h2,
+  .u-text-style-h3,
+  .u-text-style-h4,
+  .u-text-style-h5,
+  .u-text-style-h6,
+  .u-rich-text h1,
+  .u-rich-text h2,
+  .u-rich-text h3,
+  .u-rich-text h4,
+  .u-rich-text h5,
+  .u-rich-text h6,
+  .u-rich-text p {
+    text-wrap: wrap !important;
+  }
+}
+/* Estado base */
+.u-link-underline {
+  display: block;
+  height: 1px;
+  width: 0;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+/* Widths personalizados */
+.u-link-underline.is-left-1 { --target-width: 30%; }
+.u-link-underline.is-left-2 { --target-width: 60%; }
+.u-link-underline.is-right-1 { --target-width: 40%; }
+.u-link-underline.is-right-2 { --target-width: 80%; }
+/* Animación con stagger en hover */
+.footer1_link_wrap:hover .u-link-underline.is-left-1 {
+  width: var(--target-width);
+  transition-delay: 0s;
+}
+.footer1_link_wrap:hover .u-link-underline.is-left-2 {
+  width: var(--target-width);
+  transition-delay: 0.1s;
+}
+.footer1_link_wrap:hover .u-link-underline.is-right-1 {
+  width: var(--target-width);
+  transition-delay: 0.2s;
+}
+.footer1_link_wrap:hover .u-link-underline.is-right-2 {
+  width: var(--target-width);
+  transition-delay: 0.3s;
+}
+/* Estado activo: mostrar instantáneamente sin transición */
+.footer1_link_wrap.w--current .u-link-underline {
+  width: var(--target-width) !important;
+  transition: none !important;
+}
+</style>
+      </div>
+      <style>:root {--site--margin: clamp(1rem, 0.5714285714285714rem + 2.142857142857143vw, 2.5rem);--size--2rem: clamp(1.75rem, 1.6785714285714286rem + 0.35714285714285715vw, 2rem);--size--2-5rem: clamp(2rem, 1.8571428571428572rem + 0.7142857142857143vw, 2.5rem);--size--3rem: clamp(2.25rem, 2.0357142857142856rem + 1.0714285714285714vw, 3rem);--size--3-5rem: clamp(2.375rem, 2.0535714285714284rem + 1.607142857142857vw, 3.5rem);--size--4rem: clamp(2.5rem, 2.0714285714285716rem + 2.142857142857143vw, 4rem);--size--4-5rem: clamp(2.75rem, 2.25rem + 2.5vw, 4.5rem);--size--5rem: clamp(3rem, 2.4285714285714284rem + 2.857142857142857vw, 5rem);--size--5-5rem: clamp(3.25rem, 2.607142857142857rem + 3.214285714285714vw, 5.5rem);--size--6rem: clamp(3.5rem, 2.7857142857142856rem + 3.571428571428571vw, 6rem);--size--6-5rem: clamp(3.75rem, 2.9642857142857144rem + 3.9285714285714284vw, 6.5rem);--size--7rem: clamp(4rem, 3.142857142857143rem + 4.285714285714286vw, 7rem);--size--7-5rem: clamp(4.25rem, 3.3214285714285716rem + 4.642857142857143vw, 7.5rem);--size--8rem: clamp(4.5rem, 3.5rem + 5vw, 8rem);--size--8-5rem: clamp(4.75rem, 3.6785714285714284rem + 5.357142857142857vw, 8.5rem);--size--9rem: clamp(5rem, 3.857142857142857rem + 5.714285714285714vw, 9rem);--size--9-5rem: clamp(5.25rem, 4.035714285714286rem + 6.071428571428571vw, 9.5rem);--size--10rem: clamp(5.5rem, 4.214285714285714rem + 6.428571428571428vw, 10rem);--size--11rem: clamp(5.75rem, 4.25rem + 7.5vw, 11rem);--size--12rem: clamp(6rem, 4.285714285714286rem + 8.571428571428571vw, 12rem);--size--13rem: clamp(6.5rem, 4.642857142857143rem + 9.285714285714286vw, 13rem);--size--14rem: clamp(7rem, 5rem + 10vw, 14rem);--size--15rem: clamp(7.5rem, 5.357142857142857rem + 10.714285714285714vw, 15rem);--size--16rem: clamp(8rem, 5.714285714285714rem + 11.428571428571429vw, 16rem);--_typography---font-size--display: clamp(3.5rem, 2.2625rem + 6.1875vw, 9.6875rem);--_typography---font-size--h1: clamp(2.54rem, 2.27rem + 1.35vw, 3.89rem);--_typography---font-size--h2: clamp(2.22rem, 2.1090000000000004rem + 0.5549999999999997vw, 2.775rem);--_typography---font-size--h3: clamp(1.51rem, 1.41rem + 0.4999999999999998vw, 2.01rem);--_typography---font-size--h4: clamp(1.15rem, 1.09rem + 0.30000000000000004vw, 1.45rem);--_typography---font-size--h6: clamp(0.625rem, 0.6071428571428571rem + 0.08928571428571429vw, 0.6875rem);--_typography---font-size--h5: clamp(0.8525rem, 0.8480000000000001rem + 0.022499999999999964vw, 0.875rem);--_typography---font-size--h5: clamp(0.8525rem, 0.8525000000000001rem + 0vw, 0.8525rem);--_typography---font-size--h6: clamp(0.625rem, 0.6125rem + 0.0625vw, 0.6875rem);--_typography---font-size--h5: clamp(0.8525rem, 0.8525000000000001rem + 0vw, 0.8525rem);--_typography---font-size--h5: clamp(0.8525rem, 0.8525000000000001rem + 0vw, 0.8525rem);}</style>
+      <div class="custom_cursor_wrap">
+        <div class="custom_cursor_contain is-explore">
+          <div class="custom_cursor_layout is-cursor">
+            <div class="custom_cursor_content">
+              <div class="u-text-style-small is-cursor u-text-transform-uppercase">Explore</div>
+              <div class="atom_wrapper is-small">
+                <div fill="none" viewbox="0 0 15 16"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 13 12" fill="none" class="u-atom-icon">
+                    <path d="M1.86971 1.04941L6.2501 5.99951L1.86971 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                    <path d="M6.75057 1.04941L11.131 5.99951L6.75057 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                  </svg></div>
+              </div>
+            </div>
+            <div class="cursor_corner_layout">
+              <div class="cursor_corner_wrap is-left-top"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 11" fill="none" class="u-atom-icon">
+                  <path d="M11 1H1V11" stroke="currentcolor" stroke-opacity="1"></path>
+                </svg></div>
+              <div class="cursor_corner_wrap is-right-top"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 11" fill="none" class="u-atom-icon">
+                  <path d="M10 11L10 1L-3.07627e-07 1" stroke="currentcolor" stroke-opacity="1"></path>
+                </svg></div>
+              <div class="cursor_corner_wrap is-left-bottom"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 11" fill="none" class="u-atom-icon">
+                  <path d="M11 10H1V-3.07627e-07" stroke="currentcolor" stroke-opacity="1"></path>
+                </svg></div>
+              <div class="cursor_corner_wrap is-right-bottom"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 11 11" fill="none" class="u-atom-icon">
+                  <path d="M10 -3.07627e-07L10 10L-3.07627e-07 10" stroke="currentcolor" stroke-opacity="1"></path>
+                </svg></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-w-id="908db8a9-5a68-0c36-95e3-88cc25775d25" class="transition">
+        <div data-w-id="908db8a9-5a68-0c36-95e3-88cc25775d26" class="transition-trigger"></div>
+        <div class="transition_layout">
+          <div class="transition_content">
+            <div class="loader-inner">
+              <div class="transition_logo_wrap">
+                <div class="logo_brand_wrap"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 306 103" fill="none" class="logo is-loader">
+                    <g clip-path="url(#clip0_8003_33089)">
+                      <path d="M236.063 0H113.582L96.1348 59.1923L78.6877 0H0L30.1515 102.302H83.4304H108.839H162.118L174.823 59.1999L187.527 102.302H266.215L236.063 0Z" fill="currentColor"></path>
+                      <path d="M265.379 64.127L276.63 102.302H306L294.749 64.127H265.379Z" fill="currentColor"></path>
+                    </g>
+                  </svg></div>
+              </div>
+            </div>
+            <div class="transition-background"></div>
+          </div>
+          <div class="transition-bar"></div>
+        </div>
+      </div>
+      <div class="set-all-components-to-display-none-and-use-this-div-to-create-a-symbol u-theme-dark">
+        <div fs-cc="manager" class="fs-cc-manager3_component">
+          <div fs-cc="open-preferences" role="button" tabindex="0" title="Cookie Preferences" aria-label="Cookie Preferences" class="fs-cc-manager4_button">
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 15 16" fill="none" class="u-atom-icon">
+                <path d="M7.19977 0.849731C3.2237 0.849731 0 4.07343 0 8.0495C0 12.0256 3.2237 15.2493 7.19977 15.2493C11.1758 15.2493 14.3995 12.0256 14.3995 8.0495C14.3995 7.8461 14.3859 7.64519 14.3691 7.446C13.5519 7.4322 12.8727 6.87311 12.6687 6.11714C12.4611 6.20054 12.2366 6.24956 11.9996 6.24956C11.0054 6.24956 10.1997 5.44378 10.1997 4.44961C9.2055 4.44961 8.39973 3.64384 8.39973 2.64967C8.39973 2.50388 8.4218 2.36341 8.4548 2.22781C8.06542 1.90382 7.81226 1.42378 7.80326 0.880199C7.60347 0.8634 7.40316 0.849731 7.19977 0.849731ZM13.1996 1.44971C13.0404 1.44971 12.8878 1.51292 12.7753 1.62544C12.6628 1.73796 12.5996 1.89057 12.5996 2.04969C12.5996 2.20882 12.6628 2.36142 12.7753 2.47394C12.8878 2.58646 13.0404 2.64967 13.1996 2.64967C13.3587 2.64967 13.5113 2.58646 13.6238 2.47394C13.7363 2.36142 13.7996 2.20882 13.7996 2.04969C13.7996 1.89057 13.7363 1.73796 13.6238 1.62544C13.5113 1.51292 13.3587 1.44971 13.1996 1.44971ZM10.1997 2.04969C10.0405 2.04969 9.88794 2.1129 9.77542 2.22542C9.6629 2.33794 9.59969 2.49055 9.59969 2.64967C9.59969 2.8088 9.6629 2.9614 9.77542 3.07392C9.88794 3.18644 10.0405 3.24965 10.1997 3.24965C10.3588 3.24965 10.5114 3.18644 10.6239 3.07392C10.7364 2.9614 10.7996 2.8088 10.7996 2.64967C10.7996 2.49055 10.7364 2.33794 10.6239 2.22542C10.5114 2.1129 10.3588 2.04969 10.1997 2.04969ZM4.79984 3.24965C5.13103 3.24965 5.39982 3.51844 5.39982 3.84963C5.39982 4.18082 5.13103 4.44961 4.79984 4.44961C4.46865 4.44961 4.19986 4.18082 4.19986 3.84963C4.19986 3.51844 4.46865 3.24965 4.79984 3.24965ZM14.3995 4.44961C14.2404 4.44961 14.0878 4.51283 13.9753 4.62534C13.8628 4.73786 13.7996 4.89047 13.7996 5.04959C13.7996 5.20872 13.8628 5.36133 13.9753 5.47385C14.0878 5.58636 14.2404 5.64958 14.3995 5.64958C14.5587 5.64958 14.7113 5.58636 14.8238 5.47385C14.9363 5.36133 14.9995 5.20872 14.9995 5.04959C14.9995 4.89047 14.9363 4.73786 14.8238 4.62534C14.7113 4.51283 14.5587 4.44961 14.3995 4.44961ZM8.99971 5.64958C9.3309 5.64958 9.59969 5.91837 9.59969 6.24956C9.59969 6.58074 9.3309 6.84954 8.99971 6.84954C8.66852 6.84954 8.39973 6.58074 8.39973 6.24956C8.39973 5.91837 8.66852 5.64958 8.99971 5.64958ZM6.59979 6.84954C6.93097 6.84954 7.19977 7.11833 7.19977 7.44952C7.19977 7.78071 6.93097 8.0495 6.59979 8.0495C6.2686 8.0495 5.9998 7.78071 5.9998 7.44952C5.9998 7.11833 6.2686 6.84954 6.59979 6.84954ZM3.59988 8.0495C4.26286 8.0495 4.79984 8.58648 4.79984 9.24946C4.79984 9.91244 4.26286 10.4494 3.59988 10.4494C2.9369 10.4494 2.39992 9.91244 2.39992 9.24946C2.39992 8.58648 2.9369 8.0495 3.59988 8.0495ZM11.3996 8.0495C11.7308 8.0495 11.9996 8.31829 11.9996 8.64948C11.9996 8.98067 11.7308 9.24946 11.3996 9.24946C11.0684 9.24946 10.7996 8.98067 10.7996 8.64948C10.7996 8.31829 11.0684 8.0495 11.3996 8.0495ZM8.39973 10.4494C8.73092 10.4494 8.99971 10.7182 8.99971 11.0494C8.99971 11.3806 8.73092 11.6494 8.39973 11.6494C8.06854 11.6494 7.79975 11.3806 7.79975 11.0494C7.79975 10.7182 8.06854 10.4494 8.39973 10.4494ZM5.9998 12.2494C6.33099 12.2494 6.59979 12.5182 6.59979 12.8493C6.59979 13.1805 6.33099 13.4493 5.9998 13.4493C5.66862 13.4493 5.39982 13.1805 5.39982 12.8493C5.39982 12.5182 5.66862 12.2494 5.9998 12.2494Z" fill="currentColor" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" stroke-width="var(--border-width--icon-width)"></path>
+              </svg></div>
+          </div>
+        </div>
+        <div fs-cc="banner" class="fs-cc-banner3_component">
+          <div class="fs-cc-banner3_container">
+            <div class="fs-cc-banner3_block">
+              <div class="fs-cc-banner3_text">Cookie Consent</div>
+              <p class="fs-cc-banner3_paragraph">By clicking <strong>“Accept”</strong>, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. View our <a href="#" class="fs-cc-banner3_text-link">Privacy Policy</a> for more information.</p>
+            </div>
+            <div class="fs-cc-banner3_buttons-wrapper">
+              <a fs-cc="allow" href="#" class="button_content is-cookie w-inline-block">
+                <div class="atom_wrapper">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 15 16" fill="none" class="u-atom-icon">
+                      <path d="M14.3825 2.65218C14.2268 2.65682 14.079 2.7219 13.9704 2.83364L4.80386 12.0002L1.03187 8.22821C0.976642 8.17068 0.910487 8.12475 0.837283 8.09311C0.76408 8.06147 0.6853 8.04476 0.605555 8.04395C0.525811 8.04314 0.446707 8.05824 0.372875 8.08839C0.299043 8.11853 0.231967 8.1631 0.175577 8.21949C0.119186 8.27588 0.0746143 8.34296 0.0444712 8.41679C0.0143281 8.49062 -0.000780298 8.56973 3.10256e-05 8.64947C0.00084235 8.72922 0.017557 8.808 0.0491961 8.8812C0.0808352 8.9544 0.126763 9.02056 0.184289 9.07579L4.38007 13.2716C4.49248 13.3839 4.64492 13.4471 4.80386 13.4471C4.9628 13.4471 5.11524 13.3839 5.22765 13.2716L14.818 3.68122C14.9046 3.59703 14.9638 3.48863 14.9877 3.37024C15.0117 3.25185 14.9993 3.12898 14.9522 3.01774C14.9051 2.9065 14.8256 2.81208 14.7239 2.74685C14.6222 2.68161 14.5032 2.64862 14.3825 2.65218Z" fill="currentColor"></path>
+                    </svg></div>
+                </div>
+                <div class="fs-cc-banner3_button-text">Accept</div>
+              </a>
+              <a fs-cc="deny" href="#" class="button_content is-cookie w-inline-block">
+                <div class="atom_wrapper">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 15 16" fill="none" class="u-atom-icon">
+                      <path d="M7.5 0.5495C5.48941 0.5495 3.66512 1.34999 2.31689 2.64301C2.22408 2.69695 2.14673 2.77388 2.09229 2.86639C0.79961 4.21457 0 6.03921 0 8.0495C0 12.1842 3.36527 15.5495 7.5 15.5495C9.50625 15.5495 11.3272 14.7526 12.6746 13.4645C12.7748 13.4083 12.8576 13.3255 12.9138 13.2253C14.2026 11.8778 15 10.0564 15 8.0495C15 3.91477 11.6347 0.5495 7.5 0.5495ZM7.5 1.7995C10.9592 1.7995 13.75 4.59032 13.75 8.0495C13.75 9.55348 13.222 10.9302 12.3413 12.007L3.54248 3.20819C4.61934 2.32752 5.99602 1.7995 7.5 1.7995ZM2.65869 4.09198L11.4575 12.8908C10.3807 13.7715 9.00398 14.2995 7.5 14.2995C4.04082 14.2995 1.25 11.5087 1.25 8.0495C1.25 6.54552 1.77802 5.16884 2.65869 4.09198Z" fill="currentColor"></path>
+                    </svg></div>
+                </div>
+                <div class="fs-cc-banner3_button-text">Deny</div>
+              </a>
+            </div>
+          </div>
+          <a fs-cc="open-preferences" href="#" class="fs-cc-manager3-link w-inline-block">
+            <div class="atom_wrapper">
+              <div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 15 16" fill="none" class="u-atom-icon">
+                  <path d="M7.19977 0.849731C3.2237 0.849731 0 4.07343 0 8.0495C0 12.0256 3.2237 15.2493 7.19977 15.2493C11.1758 15.2493 14.3995 12.0256 14.3995 8.0495C14.3995 7.8461 14.3859 7.64519 14.3691 7.446C13.5519 7.4322 12.8727 6.87311 12.6687 6.11714C12.4611 6.20054 12.2366 6.24956 11.9996 6.24956C11.0054 6.24956 10.1997 5.44378 10.1997 4.44961C9.2055 4.44961 8.39973 3.64384 8.39973 2.64967C8.39973 2.50388 8.4218 2.36341 8.4548 2.22781C8.06542 1.90382 7.81226 1.42378 7.80326 0.880199C7.60347 0.8634 7.40316 0.849731 7.19977 0.849731ZM13.1996 1.44971C13.0404 1.44971 12.8878 1.51292 12.7753 1.62544C12.6628 1.73796 12.5996 1.89057 12.5996 2.04969C12.5996 2.20882 12.6628 2.36142 12.7753 2.47394C12.8878 2.58646 13.0404 2.64967 13.1996 2.64967C13.3587 2.64967 13.5113 2.58646 13.6238 2.47394C13.7363 2.36142 13.7996 2.20882 13.7996 2.04969C13.7996 1.89057 13.7363 1.73796 13.6238 1.62544C13.5113 1.51292 13.3587 1.44971 13.1996 1.44971ZM10.1997 2.04969C10.0405 2.04969 9.88794 2.1129 9.77542 2.22542C9.6629 2.33794 9.59969 2.49055 9.59969 2.64967C9.59969 2.8088 9.6629 2.9614 9.77542 3.07392C9.88794 3.18644 10.0405 3.24965 10.1997 3.24965C10.3588 3.24965 10.5114 3.18644 10.6239 3.07392C10.7364 2.9614 10.7996 2.8088 10.7996 2.64967C10.7996 2.49055 10.7364 2.33794 10.6239 2.22542C10.5114 2.1129 10.3588 2.04969 10.1997 2.04969ZM4.79984 3.24965C5.13103 3.24965 5.39982 3.51844 5.39982 3.84963C5.39982 4.18082 5.13103 4.44961 4.79984 4.44961C4.46865 4.44961 4.19986 4.18082 4.19986 3.84963C4.19986 3.51844 4.46865 3.24965 4.79984 3.24965ZM14.3995 4.44961C14.2404 4.44961 14.0878 4.51283 13.9753 4.62534C13.8628 4.73786 13.7996 4.89047 13.7996 5.04959C13.7996 5.20872 13.8628 5.36133 13.9753 5.47385C14.0878 5.58636 14.2404 5.64958 14.3995 5.64958C14.5587 5.64958 14.7113 5.58636 14.8238 5.47385C14.9363 5.36133 14.9995 5.20872 14.9995 5.04959C14.9995 4.89047 14.9363 4.73786 14.8238 4.62534C14.7113 4.51283 14.5587 4.44961 14.3995 4.44961ZM8.99971 5.64958C9.3309 5.64958 9.59969 5.91837 9.59969 6.24956C9.59969 6.58074 9.3309 6.84954 8.99971 6.84954C8.66852 6.84954 8.39973 6.58074 8.39973 6.24956C8.39973 5.91837 8.66852 5.64958 8.99971 5.64958ZM6.59979 6.84954C6.93097 6.84954 7.19977 7.11833 7.19977 7.44952C7.19977 7.78071 6.93097 8.0495 6.59979 8.0495C6.2686 8.0495 5.9998 7.78071 5.9998 7.44952C5.9998 7.11833 6.2686 6.84954 6.59979 6.84954ZM3.59988 8.0495C4.26286 8.0495 4.79984 8.58648 4.79984 9.24946C4.79984 9.91244 4.26286 10.4494 3.59988 10.4494C2.9369 10.4494 2.39992 9.91244 2.39992 9.24946C2.39992 8.58648 2.9369 8.0495 3.59988 8.0495ZM11.3996 8.0495C11.7308 8.0495 11.9996 8.31829 11.9996 8.64948C11.9996 8.98067 11.7308 9.24946 11.3996 9.24946C11.0684 9.24946 10.7996 8.98067 10.7996 8.64948C10.7996 8.31829 11.0684 8.0495 11.3996 8.0495ZM8.39973 10.4494C8.73092 10.4494 8.99971 10.7182 8.99971 11.0494C8.99971 11.3806 8.73092 11.6494 8.39973 11.6494C8.06854 11.6494 7.79975 11.3806 7.79975 11.0494C7.79975 10.7182 8.06854 10.4494 8.39973 10.4494ZM5.9998 12.2494C6.33099 12.2494 6.59979 12.5182 6.59979 12.8493C6.59979 13.1805 6.33099 13.4493 5.9998 13.4493C5.66862 13.4493 5.39982 13.1805 5.39982 12.8493C5.39982 12.5182 5.66862 12.2494 5.9998 12.2494Z" fill="currentColor" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" stroke-width="var(--border-width--icon-width)"></path>
+                </svg></div>
+            </div>
+            <div class="fs-cc-manager3_text">Preferences</div>
+          </a>
+        </div>
+        <div fs-cc-scroll="disable" fs-cc="preferences" class="fs-cc-prefs3_component">
+          <div fs-cc="close" class="fs-cc-prefs3_close">
+            <div class="fs-cc-preferences3_close-icon w-embed"><svg fill="currentColor" aria-hidden="true" focusable="false" viewbox="0 0 16 16">
+                <path d="M9.414 8l4.293-4.293-1.414-1.414L8 6.586 3.707 2.293 2.293 3.707 6.586 8l-4.293 4.293 1.414 1.414L8 9.414l4.293 4.293 1.414-1.414L9.414 8z"></path>
+              </svg></div>
+          </div>
+          <div class="fs-cc-prefs3_form-wrapper w-form">
+            <form id="cookie-preferences" name="wf-form-Cookie-Preferences" data-name="Cookie Preferences" method="get" class="fs-cc-prefs3_form" data-wf-page-id="6803d7c8ce55f29638587899" data-wf-element-id="01f07039-2981-8795-4306-8b2f32f70f9f">
+              <div class="fs-cc-prefs3_header">
+                <div class="atom_wrapper is-big">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 15 16" fill="none" class="u-atom-icon">
+                      <path d="M7.19977 0.849731C3.2237 0.849731 0 4.07343 0 8.0495C0 12.0256 3.2237 15.2493 7.19977 15.2493C11.1758 15.2493 14.3995 12.0256 14.3995 8.0495C14.3995 7.8461 14.3859 7.64519 14.3691 7.446C13.5519 7.4322 12.8727 6.87311 12.6687 6.11714C12.4611 6.20054 12.2366 6.24956 11.9996 6.24956C11.0054 6.24956 10.1997 5.44378 10.1997 4.44961C9.2055 4.44961 8.39973 3.64384 8.39973 2.64967C8.39973 2.50388 8.4218 2.36341 8.4548 2.22781C8.06542 1.90382 7.81226 1.42378 7.80326 0.880199C7.60347 0.8634 7.40316 0.849731 7.19977 0.849731ZM13.1996 1.44971C13.0404 1.44971 12.8878 1.51292 12.7753 1.62544C12.6628 1.73796 12.5996 1.89057 12.5996 2.04969C12.5996 2.20882 12.6628 2.36142 12.7753 2.47394C12.8878 2.58646 13.0404 2.64967 13.1996 2.64967C13.3587 2.64967 13.5113 2.58646 13.6238 2.47394C13.7363 2.36142 13.7996 2.20882 13.7996 2.04969C13.7996 1.89057 13.7363 1.73796 13.6238 1.62544C13.5113 1.51292 13.3587 1.44971 13.1996 1.44971ZM10.1997 2.04969C10.0405 2.04969 9.88794 2.1129 9.77542 2.22542C9.6629 2.33794 9.59969 2.49055 9.59969 2.64967C9.59969 2.8088 9.6629 2.9614 9.77542 3.07392C9.88794 3.18644 10.0405 3.24965 10.1997 3.24965C10.3588 3.24965 10.5114 3.18644 10.6239 3.07392C10.7364 2.9614 10.7996 2.8088 10.7996 2.64967C10.7996 2.49055 10.7364 2.33794 10.6239 2.22542C10.5114 2.1129 10.3588 2.04969 10.1997 2.04969ZM4.79984 3.24965C5.13103 3.24965 5.39982 3.51844 5.39982 3.84963C5.39982 4.18082 5.13103 4.44961 4.79984 4.44961C4.46865 4.44961 4.19986 4.18082 4.19986 3.84963C4.19986 3.51844 4.46865 3.24965 4.79984 3.24965ZM14.3995 4.44961C14.2404 4.44961 14.0878 4.51283 13.9753 4.62534C13.8628 4.73786 13.7996 4.89047 13.7996 5.04959C13.7996 5.20872 13.8628 5.36133 13.9753 5.47385C14.0878 5.58636 14.2404 5.64958 14.3995 5.64958C14.5587 5.64958 14.7113 5.58636 14.8238 5.47385C14.9363 5.36133 14.9995 5.20872 14.9995 5.04959C14.9995 4.89047 14.9363 4.73786 14.8238 4.62534C14.7113 4.51283 14.5587 4.44961 14.3995 4.44961ZM8.99971 5.64958C9.3309 5.64958 9.59969 5.91837 9.59969 6.24956C9.59969 6.58074 9.3309 6.84954 8.99971 6.84954C8.66852 6.84954 8.39973 6.58074 8.39973 6.24956C8.39973 5.91837 8.66852 5.64958 8.99971 5.64958ZM6.59979 6.84954C6.93097 6.84954 7.19977 7.11833 7.19977 7.44952C7.19977 7.78071 6.93097 8.0495 6.59979 8.0495C6.2686 8.0495 5.9998 7.78071 5.9998 7.44952C5.9998 7.11833 6.2686 6.84954 6.59979 6.84954ZM3.59988 8.0495C4.26286 8.0495 4.79984 8.58648 4.79984 9.24946C4.79984 9.91244 4.26286 10.4494 3.59988 10.4494C2.9369 10.4494 2.39992 9.91244 2.39992 9.24946C2.39992 8.58648 2.9369 8.0495 3.59988 8.0495ZM11.3996 8.0495C11.7308 8.0495 11.9996 8.31829 11.9996 8.64948C11.9996 8.98067 11.7308 9.24946 11.3996 9.24946C11.0684 9.24946 10.7996 8.98067 10.7996 8.64948C10.7996 8.31829 11.0684 8.0495 11.3996 8.0495ZM8.39973 10.4494C8.73092 10.4494 8.99971 10.7182 8.99971 11.0494C8.99971 11.3806 8.73092 11.6494 8.39973 11.6494C8.06854 11.6494 7.79975 11.3806 7.79975 11.0494C7.79975 10.7182 8.06854 10.4494 8.39973 10.4494ZM5.9998 12.2494C6.33099 12.2494 6.59979 12.5182 6.59979 12.8493C6.59979 13.1805 6.33099 13.4493 5.9998 13.4493C5.66862 13.4493 5.39982 13.1805 5.39982 12.8493C5.39982 12.5182 5.66862 12.2494 5.9998 12.2494Z" fill="currentColor" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" stroke-width="var(--border-width--icon-width)"></path>
+                    </svg></div>
+                </div>
+                <div class="fs-cc-prefs3_title">Privacy Preferences</div>
+              </div>
+              <div class="fs-cc-prefs3_content">
+                <div class="fs-cc-prefs3_option">
+                  <div class="fs-cc-prefs3_toggle-wrapper">
+                    <div class="fs-cc-prefs3_label">Essential cookies</div>
+                    <div class="fs-cc-prefs3_line"></div>
+                    <div class="text-block-cookies">Required</div>
+                  </div>
+                </div>
+                <div class="fs-cc-prefs3_option">
+                  <div class="fs-cc-prefs3_toggle-wrapper">
+                    <div class="fs-cc-prefs3_label">Marketing cookies</div>
+                    <div class="fs-cc-prefs3_line"></div><label class="w-checkbox fs-cc-prefs3_checkbox-field">
+                      <div class="w-checkbox-input w-checkbox-input--inputType-custom fs-cc-prefs3_checkbox"></div><input type="checkbox" name="marketing-2" id="marketing-2" data-name="Marketing 2" fs-cc-checkbox="marketing" style="opacity:0;position:absolute;z-index:-1"><span for="marketing-2" class="fs-cc-prefs3_checkbox-label w-form-label">Essential</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="fs-cc-prefs3_option">
+                  <div class="fs-cc-prefs3_toggle-wrapper">
+                    <div class="fs-cc-prefs3_label">Personalization cookies</div>
+                    <div class="fs-cc-prefs3_line"></div><label class="w-checkbox fs-cc-prefs3_checkbox-field">
+                      <div class="w-checkbox-input w-checkbox-input--inputType-custom fs-cc-prefs3_checkbox"></div><input type="checkbox" name="personalization-2" id="personalization-2" data-name="Personalization 2" fs-cc-checkbox="personalization" style="opacity:0;position:absolute;z-index:-1"><span for="personalization-2" class="fs-cc-prefs3_checkbox-label w-form-label">Essential</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="fs-cc-prefs3_option">
+                  <div class="fs-cc-prefs3_toggle-wrapper">
+                    <div class="fs-cc-prefs3_label">Analytics cookies</div>
+                    <div class="fs-cc-prefs3_line"></div><label class="w-checkbox fs-cc-prefs3_checkbox-field">
+                      <div class="w-checkbox-input w-checkbox-input--inputType-custom fs-cc-prefs3_checkbox"></div><input type="checkbox" name="analytics-2" id="analytics-2" data-name="Analytics 2" fs-cc-checkbox="analytics" style="opacity:0;position:absolute;z-index:-1"><span for="analytics-2" class="fs-cc-prefs3_checkbox-label w-form-label">Essential</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="fs-cc-prefs3_buttons-wrapper">
+                <div class="fs-cc-prefs3_buttons-block">
+                  <a fs-cc="deny" href="#" class="button_content w-button">Reject all cookies</a>
+                  <a fs-cc="allow" href="#" class="button_content w-button">Allow all cookies</a>
+                </div><input type="submit" data-wait="Please wait..." class="button_content w-button" value="Save preferences">
+              </div>
+            </form>
+            <div class="w-form-done"></div>
+            <div class="w-form-fail"></div>
+            <div fs-cc="close" class="fs-cc-prefs3_overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="styleguide_guide_wrap">
+      <div class="w-embed">
+        <style>
+html:not(.wf-design-mode) .styleguide_guide_wrap {
+	display: none;
+}
+.styleguide_guide_layout {
+	counter-reset: gridguides;
+}
+.styleguide_guide_layout > div::before {
+  counter-increment: gridguides;
+  content: counter(gridguides);
+}
+</style>
+      </div>
+      <div data-padding-bottom="none" data-padding-top="none" class="styleguide_guide_contain u-container">
+        <div class="styleguide_guide_layout u-grid-custom">
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+          <div class="styleguide_guide_column u-vflex-center-bottom"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <header class="nav_1_component">
+        <div class="w-embed">
+          <style>
+:root {
+	--nav_1--height: var(--site--nav-height);
+	--nav_1--banner-height: 2.4rem;
+	--nav_1--height-total: var(--nav_1--height);
+	--nav_1--icon-thickness: var(--border-width--main);
+	--nav_1--hamburger-thickness: var(--nav_1--icon-thickness);
+	--nav_1--hamburger-gap: var(--_spacing---space--2);
+	--nav_1--hamburger-rotate: 45;
+	--nav_1--menu-open-duration: 400ms;
+	--nav_1--menu-close-duration: 400ms;
+	--nav_1--dropdown-duration: 400ms;
+	--nav_1--dropdown-open-duration: 400ms;
+	--nav_1--dropdown-delay: 0ms;
+}
+/* on smaller screens */
+@media (width < 65em) {
+	/* disable scroll when mobile menu is open */
+	body:has(.nav_1_component .w-nav-button.w--open) { overflow: hidden; }
+}
+/* on larger screens */
+@container (min-width: 65em) {
+	/* show desktop nav & dropdown backdrop */
+	.nav_1_wrap.is-desktop, .nav_1_dropdown_backdrop { display: block; }
+	/* hide mobile nav & mobile menu backdrop */
+	.nav_1_wrap.is-mobile, .nav_1_menu_backdrop { display: none; }
+}
+/* dropdown list: initial state */
+html:not(.wf-design-mode) .nav_1_dropdown_component > .w-dropdown-list {
+	/* removes display none to enable css transitions */
+	display: grid !important;
+	grid-template-columns: minmax(0, 1fr);
+	/* sets list to 0 height by default */
+	grid-template-rows: 0fr;
+	transition: grid-template-rows var(--nav_1--dropdown-duration);
+	/* makes list content not focusable when closed */
+	visibility: hidden;
+	opacity: 0;
+}
+/* makes list content focusable when opened */
+html:not(.wf-design-mode) .nav_1_dropdown_component > .w-dropdown-list.w--open {
+	visibility: visible;
+	opacity: 1;
+}
+/* sets list child to overflow hidden to enable css height transition */
+.nav_1_dropdown_component > .w-dropdown-list > * {
+	overflow: hidden;
+}
+/* set open state of dropdown list */
+.nav_1_dropdown_component:has(> .w-dropdown-toggle[aria-expanded="true"]) > .w-dropdown-list {
+	--nav_1--dropdown-duration: var(--nav_1--dropdown-open-duration);
+	grid-template-rows: 1fr;
+}
+/* on desktop, delay dropdown opening if another dropdown is open */
+.nav_1_wrap.is-desktop:has(.nav_1_dropdown_component > .w-dropdown-toggle.w--open[aria-expanded="false"]) .nav_1_dropdown_component:has(> .w--open[aria-expanded="true"]) > .w-dropdown-list {
+	transition-delay: var(--nav_1--dropdown-duration);
+}
+/* reveal dropdown backdrop when dropdown open */
+.nav_1_dropdown_backdrop {
+	transition: opacity var(--nav_1--dropdown-duration);
+}
+body:has(.nav_1_dropdown_component > [aria-expanded="true"]) .nav_1_dropdown_backdrop {
+	opacity: 1;
+}
+/* rotate arrow inside open dropdown */
+.w-dropdown-toggle[aria-expanded="true"] .nav_1_links_svg {
+	transform: rotate(-180deg);
+}
+/* fade out other dropdown links when link is hovered */
+@media (hover: hover) and (pointer: fine) {
+	body:has(.nav_1_dropdown_item:hover) .nav_1_dropdown_item:not(:hover) > * > * {
+		opacity: 0.5;
+	}
+}
+/* reveal mobile menu backdrop on menu open */
+.nav_1_menu_backdrop {
+	transition: opacity var(--nav_1--menu-close-duration);
+}
+.nav_1_component:has(.w-nav-button.w--open) .nav_1_menu_backdrop {
+	opacity: 1;
+}
+/* menu animations */
+@keyframes menuOpen {
+ from { clip-path: circle(0% at 100% 0); }
+ to { clip-path: circle(141.2% at 100% 0); }
+}
+@keyframes menuClose {
+ from { clip-path: circle(141.2% at 100% 0); }
+ to { clip-path: circle(0% at 100% 0); }
+}
+/* menu open */
+.nav_1_component:has(.w-nav-button.w--open) .w-nav-menu {
+	animation: menuOpen var(--nav_1--menu-open-duration) ease-in-out forwards;
+}
+/* menu close */
+.nav_1_component:has(.w-nav-button:not(.w--open)) .w-nav-menu {
+	animation: menuClose var(--nav_1--menu-close-duration) ease-in-out forwards;
+}
+/* position overflow to top of screen */
+.nav_1_component .w-nav-overlay {
+ top: 0;
+ min-height: 100vh;
+}
+/* search focus underline */
+.nav_1_search_wrap:has(input:focus-visible) {
+	border-color: var(--_theme---text);
+}
+/* open dropdown on mobile */
+.nav_1_wrap.is-mobile [data-open-on-mobile] > .w-dropdown-toggle {
+	display: none;
+}
+.nav_1_wrap.is-mobile [data-open-on-mobile] > .w-dropdown-list {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+	grid-template-rows: 1fr;
+}
+/* Rotate Nav Banner Arrow When External Link */
+a[target="_blank"] .nav_1_banner_svg {
+	transform: rotate(-45deg);
+}
+/* nav banner */
+html:has(.nav_1_banner_wrap:not(.w-condition-invisible)):not(.hide-nav-banner) {
+	--nav_1--height-total: calc(var(--nav_1--banner-height) + var(--nav_1--height));
+}
+.hide-nav-banner .nav_1_banner_wrap {
+	display: none;
+}
+@media (min-width: 65em) {
+  .nav_1_links_item,
+  .nav_1_links_mobile_item,
+  .nav_1_buttons_item {
+    opacity: 1 !important;
+    animation: none !important;
+    transform: none !important;
+  }
+}
+  /* Animación base */
+  @keyframes fadeSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Reseteo de opacidad para que se oculten por defecto */
+  .nav_1_links_item,
+  .nav_1_links_mobile_item,
+  .nav_1_buttons_item {
+    opacity: 0;
+  }
+  /* Aplicar animación solo cuando el menú está abierto */
+  .nav_1_component:has(.w-nav-button.w--open) 
+  .nav_1_links_item,
+  .nav_1_component:has(.w-nav-button.w--open) 
+  .nav_1_links_mobile_item,
+  .nav_1_component:has(.w-nav-button.w--open) 
+  .nav_1_buttons_item {
+    animation: fadeSlideUp 0.5s ease-out forwards;
+    animation-delay: var(--delay, 0s);
+  }
+  /* Escalonado desde nav_1_links_wrap */
+  .nav_1_links_wrap .nav_1_links_item:nth-child(1) { --delay: 0.05s; }
+  .nav_1_links_wrap .nav_1_links_item:nth-child(2) { --delay: 0.1s; }
+  .nav_1_links_wrap .nav_1_links_item:nth-child(3) { --delay: 0.15s; }
+  .nav_1_links_wrap .nav_1_links_item:nth-child(4) { --delay: 0.2s; }
+  .nav_1_links_wrap .nav_1_links_item:nth-child(5) { --delay: 0.25s; }
+  /* Escalonado desde nav_1_actions_wrap */
+  .nav_1_actions_wrap .nav_1_links_item:nth-child(1) { --delay: 0.3s; }
+  .nav_1_actions_wrap .nav_1_links_mobile_item:nth-child(2) { --delay: 0.35s; }
+  .nav_1_actions_wrap .nav_1_links_mobile_item:nth-child(3) { --delay: 0.4s; }
+  .nav_1_actions_wrap .nav_1_links_mobile_item:nth-child(4) { --delay: 0.45s; }
+  .nav_1_actions_wrap .nav_1_links_mobile_item:nth-child(5) { --delay: 0.5s; }
+  .nav_1_actions_wrap .nav_1_links_item:nth-child(6) { --delay: 0.55s; }
+  /* Botón final (si se quiere animar también) */
+  .nav_1_actions_wrap .nav_1_buttons_item { --delay: 0.6s; }
+.nav_1_background {
+  /* Fallback con variables RGB */
+  background-image: linear-gradient(
+    rgba(var(--_theme---nav-r), var(--_theme---nav-g), var(--_theme---nav-b), 1) 0%,
+    rgba(var(--_theme---nav-r), var(--_theme---nav-g), var(--_theme---nav-b), 0.4) 55%,
+    rgba(var(--_theme---nav-r), var(--_theme---nav-g), var(--_theme---nav-b), 0.2) 70%,
+    rgba(var(--_theme---nav-r), var(--_theme---nav-g), var(--_theme---nav-b), 0.1) 80%,
+    rgba(var(--_theme---nav-r), var(--_theme---nav-g), var(--_theme---nav-b), 0.05) 88%,
+    rgba(var(--_theme---nav-r), var(--_theme---nav-g), var(--_theme---nav-b), 0.02) 95%,
+    rgba(var(--_theme---nav-r), var(--_theme---nav-g), var(--_theme---nav-b), 0) 100%
+  );
+  /* Modern color-mix version */
+  background-image: linear-gradient(
+    color-mix(in srgb, var(--_theme---nav-background) 100%, transparent 0%) 0%,
+    color-mix(in srgb, var(--_theme---nav-background) 40%, transparent 60%) 55%,
+    color-mix(in srgb, var(--_theme---nav-background) 20%, transparent 80%) 70%,
+    color-mix(in srgb, var(--_theme---nav-background) 10%, transparent 90%) 80%,
+    color-mix(in srgb, var(--_theme---nav-background) 5%, transparent 95%) 88%,
+    color-mix(in srgb, var(--_theme---nav-background) 2%, transparent 98%) 95%,
+    transparent 100%
+  );
+}
+</style>
+        </div>
+        <a href="/#main" class="nav_1_skip_wrap w-inline-block">
+          <div class="nav_1_skip_text u-text-style-small">Skip to main content</div>
+        </a>
+        <div role="banner" class="nav_1_wrap is-desktop">
+          <div class="nav_1_contain u-container-full">
+            <a aria-label="Home Page" href="index.html" class="nav_1_logo_wrap w-inline-block">
+              <div class="logo_brand_wrap"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 338 77" fill="none" class="logo">
+                  <g clip-path="url(#clip0_6078_5258)">
+                    <path d="M56.1779 48.3782C52.881 60.4663 44.0575 70.9248 24.6472 70.9248C7.77755 70.9248 0 61.4835 0 46.3224C0 29.1805 9.59737 6 34.6226 6C53.6054 6 60.4854 18.3209 59.2345 30.2156H39.0326C39.5909 24.9362 39.0644 20.3231 33.7675 20.3231C24.7532 20.3231 21.2337 40.2622 21.2337 47.9807C21.2337 54.4993 23.5129 56.7557 27.1278 56.7557C32.1915 56.7557 34.1951 53.1956 36.0184 48.3746H56.1779V48.3782Z" fill="currentColor"></path>
+                    <path d="M64.952 28.3245C67.1464 17.8051 68.4362 11.4978 69.0581 7.31445H89.2387C89.1221 9.16975 88.4225 14.4133 87.5214 18.6289C91.5144 10.9319 97.2813 6.32233 107.861 6.32233L103.324 27.3073C90.8571 26.7414 85.2245 31.6662 82.8605 42.8087L77.2773 69.6855H56.3052L64.952 28.3245Z" fill="currentColor"></path>
+                    <path d="M165.562 31.634C165.562 46.6948 158.163 71 129.759 71C110.628 71 103.183 60.0401 103.183 45.2801C103.183 29.048 112.49 6 138.802 6C158.088 6 165.562 17.8266 165.562 31.634ZM124.699 46.9491C124.699 53.3066 126.621 56.3582 131.367 56.3582C140.699 56.3582 144.434 36.6053 144.434 29.5387C144.434 23.5143 142.519 20.7242 137.572 20.7242C128.469 20.7242 124.699 39.0552 124.699 46.9491Z" fill="currentColor"></path>
+                    <path d="M190.573 7.31445C190.279 19.99 189.82 41.7629 189.219 49.27H189.661C192.64 40.8066 195.753 31.351 205.149 7.31445H225.199C224.347 26.1755 224.425 40.9391 223.467 49.2915L223.874 49.2486C226.019 42.8159 230.252 31.2829 239.535 7.31445H260.362L231.012 69.6855H208.181C208.435 53.4284 208.813 42.4183 209.375 33.5394H209.093C206.22 42.0387 201.601 53.6361 195.064 69.6855H172.272L169.675 7.31445H190.569H190.573Z" fill="currentColor"></path>
+                    <path d="M261.578 26.8274C264.274 13.937 264.903 10.1332 265.373 7.31447H286.077C285.96 8.58596 285.568 11.5229 285.101 14.1447C288.639 9.78223 293.568 6 302.208 6C314.749 6 319.812 14.8037 316.922 28.3532L308.31 69.6855H287.338L295.285 31.634C296.529 25.7206 295.936 22.1819 290.752 22.1819C286.13 22.1819 283.013 24.8001 281.154 33.5537L273.592 69.6855H252.62L261.578 26.8274Z" fill="currentColor"></path>
+                    <path d="M314.105 69.6461L318.544 48.3782H337L332.562 69.6461H314.105Z" fill="currentColor"></path>
+                  </g>
+                </svg></div>
+            </a>
+            <nav role="navigation" class="nav_1_desktop_layout">
+              <div data-wf--nav-links-components--variant="base" class="nav_1_links_component is-desktop">
+                <ul role="list" class="nav_1_links_wrap is-desktop w-list-unstyled">
+                  <li class="nav_1_links_item">
+                    <div class="nav_1_links_link is-desktop">
+                      <a href="crown-agency.html" class="footer1_link_wrap w-inline-block">
+                        <div class="nav_1_links_text">Crown Agency</div>
+                        <div class="u-link-underline-wrapper">
+                          <div class="u-link-underline-inner">
+                            <div class="u-link-underline is-left-1"></div>
+                            <div class="u-link-underline is-left-2"></div>
+                          </div>
+                          <div class="u-link-underline-inner is-right">
+                            <div class="u-link-underline is-right-1"></div>
+                            <div class="u-link-underline is-right-2"></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="nav_1_links_item">
+                    <div class="nav_1_links_link is-desktop">
+                      <a href="crown-studio.html" class="footer1_link_wrap w-inline-block">
+                        <div class="nav_1_links_text">Crown Studio</div>
+                        <div class="u-link-underline-wrapper">
+                          <div class="u-link-underline-inner">
+                            <div class="u-link-underline is-left-1"></div>
+                            <div class="u-link-underline is-left-2"></div>
+                          </div>
+                          <div class="u-link-underline-inner is-right">
+                            <div class="u-link-underline is-right-1"></div>
+                            <div class="u-link-underline is-right-2"></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="nav_1_links_item">
+                    <div class="nav_1_links_link is-desktop">
+                      <a href="#" class="footer1_link_wrap w-inline-block">
+                        <div class="nav_1_links_text">collective</div>
+                        <div class="u-link-underline-wrapper">
+                          <div class="u-link-underline-inner">
+                            <div class="u-link-underline is-left-1"></div>
+                            <div class="u-link-underline is-left-2"></div>
+                          </div>
+                          <div class="u-link-underline-inner is-right">
+                            <div class="u-link-underline is-right-1"></div>
+                            <div class="u-link-underline is-right-2"></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="nav_1_links_item">
+                    <div class="nav_1_links_link is-desktop">
+                      <a href="#" class="footer1_link_wrap w-inline-block">
+                        <div class="nav_1_links_text">about us</div>
+                        <div class="u-link-underline-wrapper">
+                          <div class="u-link-underline-inner">
+                            <div class="u-link-underline is-left-1"></div>
+                            <div class="u-link-underline is-left-2"></div>
+                          </div>
+                          <div class="u-link-underline-inner is-right">
+                            <div class="u-link-underline is-right-1"></div>
+                            <div class="u-link-underline is-right-2"></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+                <ul role="list" class="nav_1_actions_wrap is-desktop w-list-unstyled">
+                  <li class="nav_1_buttons_item is-main is-desktop">
+                    <a data-wf--button--size="small" href="#" class="button_wrap w-inline-block">
+                      <div data-wf--button-style--style="secondary" class="button_content w-variant-8082779e-7499-ca47-c257-af9242d7c153">
+                        <div data-wf--button-layout--layout="normal" class="button_layout">
+                          <div class="button_text">CONTACT US</div>
+                          <div class="button_icon">
+                            <div class="button_slot">
+                              <div class="button_slot">
+                                <div fill="none" viewbox="0 0 15 16"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 13 12" fill="none" class="u-atom-icon">
+                                    <path d="M1.86971 1.04941L6.2501 5.99951L1.86971 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                    <path d="M6.75057 1.04941L11.131 5.99951L6.75057 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                  </svg></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div data-open-product="" data-wf-cart-type="rightSidebar" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper cart_wrap" data-node-type="commerce-cart-wrapper">
+                <a class="w-commerce-commercecartopenlink cart_button button_content w-inline-block" role="button" aria-haspopup="dialog" aria-label="Open cart" data-node-type="commerce-cart-open-link" href="#"><svg class="w-commerce-commercecartopenlinkicon cart_icon" width="17px" height="17px" viewbox="0 0 17 17">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <path d="M2.60592789,2 L0,2 L0,0 L4.39407211,0 L4.84288393,4 L16,4 L16,9.93844589 L3.76940945,12.3694378 L2.60592789,2 Z M15.5,17 C14.6715729,17 14,16.3284271 14,15.5 C14,14.6715729 14.6715729,14 15.5,14 C16.3284271,14 17,14.6715729 17,15.5 C17,16.3284271 16.3284271,17 15.5,17 Z M5.5,17 C4.67157288,17 4,16.3284271 4,15.5 C4,14.6715729 4.67157288,14 5.5,14 C6.32842712,14 7,14.6715729 7,15.5 C7,16.3284271 6.32842712,17 5.5,17 Z" fill="currentColor" fill-rule="nonzero"></path>
+                    </g>
+                  </svg>
+                  <div class="w-commerce-commercecartopenlinkcount u-cart-quantity">0</div>
+                </a>
+                <div style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-rightSidebar" data-node-type="commerce-cart-container-wrapper">
+                  <div data-node-type="commerce-cart-container" role="dialog" class="w-commerce-commercecartcontainer cart_container">
+                    <div class="w-commerce-commercecartheader cart-header">
+                      <h4 class="w-commerce-commercecartheading u-text-style-h5">Your Cart</h4>
+                      <a class="w-commerce-commercecartcloselink w-inline-block" role="button" aria-label="Close cart" data-node-type="commerce-cart-close-link">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 15 16" fill="none" class="u-atom-icon">
+                            <path d="M12.0789 3.47058L2.92099 12.6284M2.9209 3.47058L12.0788 12.6284" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" stroke-width="var(--border-width--icon-width)"></path>
+                          </svg></div>
+                      </a>
+                    </div>
+                    <div class="w-commerce-commercecartformwrapper">
+                      <form style="display:none" class="w-commerce-commercecartform" data-node-type="commerce-cart-form">
+                        <script type="text/x-wf-template" id="wf-template-b771d5bf-bd54-a6b6-f0d4-817d713aae60"></script>
+                        <div class="w-commerce-commercecartlist" data-wf-collection="database.commerceOrder.userItems" data-wf-template-id="wf-template-b771d5bf-bd54-a6b6-f0d4-817d713aae60"></div>
+                        <div class="w-commerce-commercecartfooter cart-footer">
+                          <div aria-atomic="true" aria-live="polite" class="w-commerce-commercecartlineitem u-mb-text">
+                            <div class="u-text-style-h4">Subtotal</div>
+                            <div class="w-commerce-commercecartordervalue u-text-style-h4"></div>
+                          </div>
+                          <div>
+                            <div data-node-type="commerce-cart-quick-checkout-actions">
+                              <a data-node-type="commerce-cart-apple-pay-button" role="button" aria-label="Apple Pay" aria-haspopup="dialog" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton apple-pay" tabindex="0">
+                                <div></div>
+                              </a>
+                              <a data-node-type="commerce-cart-quick-checkout-button" role="button" tabindex="0" aria-haspopup="dialog" style="display:none" class="w-commerce-commercecartquickcheckoutbutton"><svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewbox="0 0 16 16">
+                                  <defs>
+                                    <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
+                                    <polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon>
+                                  </defs>
+                                  <g fill="none" fill-rule="evenodd">
+                                    <path fill="#4285F4" d="M10.5967,12.0469 L10.5967,14.0649 L13.1167,14.0649 C14.6047,12.6759 15.4577,10.6209 15.4577,8.1779 C15.4577,7.6339 15.4137,7.0889 15.3257,6.5559 L7.8887,6.5559 L7.8887,9.6329 L12.1507,9.6329 C11.9767,10.6119 11.4147,11.4899 10.5967,12.0469"></path>
+                                    <path fill="#34A853" d="M7.8887,16 C10.0137,16 11.8107,15.289 13.1147,14.067 C13.1147,14.066 13.1157,14.065 13.1167,14.064 L10.5967,12.047 C10.5877,12.053 10.5807,12.061 10.5727,12.067 C9.8607,12.556 8.9507,12.833 7.8887,12.833 C5.8577,12.833 4.1387,11.457 3.4937,9.605 L0.8747,9.605 L0.8747,11.648 C2.2197,14.319 4.9287,16 7.8887,16"></path>
+                                    <g transform="translate(0 4)">
+                                      <mask id="google-mark-b" fill="#fff">
+                                        <use xlink:href="#google-mark-a"></use>
+                                      </mask>
+                                      <path fill="#FBBC04" d="M3.4639,5.5337 C3.1369,4.5477 3.1359,3.4727 3.4609,2.4757 L3.4639,2.4777 C3.4679,2.4657 3.4749,2.4547 3.4789,2.4427 L3.4939,0.3287 L0.8939,0.3287 C0.8799,0.3577 0.8599,0.3827 0.8459,0.4117 C-0.2821,2.6667 -0.2821,5.3337 0.8459,7.5887 L0.8459,7.5997 C0.8549,7.6167 0.8659,7.6317 0.8749,7.6487 L3.4939,5.6057 C3.4849,5.5807 3.4729,5.5587 3.4639,5.5337" mask="url(#google-mark-b)"></path>
+                                    </g>
+                                    <mask id="google-mark-d" fill="#fff">
+                                      <use xlink:href="#google-mark-c"></use>
+                                    </mask>
+                                    <path fill="#EA4335" d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291" mask="url(#google-mark-d)"></path>
+                                  </g>
+                                </svg><svg class="w-commerce-commercequickcheckoutmicrosofticon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <polygon fill="#F05022" points="7 7 1 7 1 1 7 1"></polygon>
+                                    <polygon fill="#7DB902" points="15 7 9 7 9 1 15 1"></polygon>
+                                    <polygon fill="#00A4EE" points="7 15 1 15 1 9 7 9"></polygon>
+                                    <polygon fill="#FFB700" points="15 15 9 15 9 9 15 9"></polygon>
+                                  </g>
+                                </svg>
+                                <div>Pay with browser.</div>
+                              </a>
+                            </div>
+                            <a href="checkout.html" value="Continue to Checkout" class="w-commerce-commercecartcheckoutbutton button_content is-cart" data-loading-text="Hang Tight..." data-node-type="cart-checkout-button">Continue to Checkout</a>
+                          </div>
+                        </div>
+                      </form>
+                      <div class="w-commerce-commercecartemptystate">
+                        <div aria-label="This cart is empty" aria-live="polite">No items found.</div>
+                      </div>
+                      <div aria-live="assertive" style="display:none" data-node-type="commerce-cart-error" class="w-commerce-commercecarterrorstate">
+                        <div class="w-cart-error-msg" data-w-cart-quantity-error="Product is not available in this quantity." data-w-cart-general-error="Something went wrong when adding this item to the cart." data-w-cart-checkout-error="Checkout is disabled on this site." data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue." data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">Product is not available in this quantity.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div data-animation="default" data-collapse="all" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav_1_wrap is-mobile w-nav">
+          <div class="nav_1_contain u-container-full">
+            <a aria-label="Home Page" href="index.html" class="nav_1_logo_wrap w-inline-block">
+              <div class="logo_brand_wrap"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 338 77" fill="none" class="logo">
+                  <g clip-path="url(#clip0_6078_5258)">
+                    <path d="M56.1779 48.3782C52.881 60.4663 44.0575 70.9248 24.6472 70.9248C7.77755 70.9248 0 61.4835 0 46.3224C0 29.1805 9.59737 6 34.6226 6C53.6054 6 60.4854 18.3209 59.2345 30.2156H39.0326C39.5909 24.9362 39.0644 20.3231 33.7675 20.3231C24.7532 20.3231 21.2337 40.2622 21.2337 47.9807C21.2337 54.4993 23.5129 56.7557 27.1278 56.7557C32.1915 56.7557 34.1951 53.1956 36.0184 48.3746H56.1779V48.3782Z" fill="currentColor"></path>
+                    <path d="M64.952 28.3245C67.1464 17.8051 68.4362 11.4978 69.0581 7.31445H89.2387C89.1221 9.16975 88.4225 14.4133 87.5214 18.6289C91.5144 10.9319 97.2813 6.32233 107.861 6.32233L103.324 27.3073C90.8571 26.7414 85.2245 31.6662 82.8605 42.8087L77.2773 69.6855H56.3052L64.952 28.3245Z" fill="currentColor"></path>
+                    <path d="M165.562 31.634C165.562 46.6948 158.163 71 129.759 71C110.628 71 103.183 60.0401 103.183 45.2801C103.183 29.048 112.49 6 138.802 6C158.088 6 165.562 17.8266 165.562 31.634ZM124.699 46.9491C124.699 53.3066 126.621 56.3582 131.367 56.3582C140.699 56.3582 144.434 36.6053 144.434 29.5387C144.434 23.5143 142.519 20.7242 137.572 20.7242C128.469 20.7242 124.699 39.0552 124.699 46.9491Z" fill="currentColor"></path>
+                    <path d="M190.573 7.31445C190.279 19.99 189.82 41.7629 189.219 49.27H189.661C192.64 40.8066 195.753 31.351 205.149 7.31445H225.199C224.347 26.1755 224.425 40.9391 223.467 49.2915L223.874 49.2486C226.019 42.8159 230.252 31.2829 239.535 7.31445H260.362L231.012 69.6855H208.181C208.435 53.4284 208.813 42.4183 209.375 33.5394H209.093C206.22 42.0387 201.601 53.6361 195.064 69.6855H172.272L169.675 7.31445H190.569H190.573Z" fill="currentColor"></path>
+                    <path d="M261.578 26.8274C264.274 13.937 264.903 10.1332 265.373 7.31447H286.077C285.96 8.58596 285.568 11.5229 285.101 14.1447C288.639 9.78223 293.568 6 302.208 6C314.749 6 319.812 14.8037 316.922 28.3532L308.31 69.6855H287.338L295.285 31.634C296.529 25.7206 295.936 22.1819 290.752 22.1819C286.13 22.1819 283.013 24.8001 281.154 33.5537L273.592 69.6855H252.62L261.578 26.8274Z" fill="currentColor"></path>
+                    <path d="M314.105 69.6461L318.544 48.3782H337L332.562 69.6461H314.105Z" fill="currentColor"></path>
+                  </g>
+                </svg></div>
+            </a>
+            <nav role="navigation" class="nav_1_menu_wrap w-nav-menu">
+              <div data-lenis-prevent="" class="nav_1_menu_scroll">
+                <div class="nav_1_menu_contain u-container">
+                  <div class="u-vflex-stretch-top u-gap-4">
+                    <div class="u-divider-wrap  ">
+                      <div class="u-divider-layout">
+                        <div class="u-divider"></div>
+                        <div class="u-divider-side-wrap is-left">
+                          <div class="u-divider-side-line"></div>
+                        </div>
+                        <div class="u-divider-side-wrap is-right">
+                          <div class="u-divider-side-line"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-wf--nav-links-components--variant="mobile" class="nav_1_links_component is-desktop w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">
+                      <ul role="list" class="nav_1_links_wrap is-desktop w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23 w-list-unstyled">
+                        <li class="nav_1_links_item">
+                          <div class="nav_1_links_link is-desktop w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">
+                            <a href="crown-agency.html" class="footer1_link_wrap w-inline-block">
+                              <div class="nav_1_links_text w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">Crown Agency</div>
+                              <div class="u-link-underline-wrapper">
+                                <div class="u-link-underline-inner">
+                                  <div class="u-link-underline is-left-1"></div>
+                                  <div class="u-link-underline is-left-2"></div>
+                                </div>
+                                <div class="u-link-underline-inner is-right">
+                                  <div class="u-link-underline is-right-1"></div>
+                                  <div class="u-link-underline is-right-2"></div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="nav_1_links_item">
+                          <div class="nav_1_links_link is-desktop w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">
+                            <a href="crown-studio.html" class="footer1_link_wrap w-inline-block">
+                              <div class="nav_1_links_text w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">Crown Studio</div>
+                              <div class="u-link-underline-wrapper">
+                                <div class="u-link-underline-inner">
+                                  <div class="u-link-underline is-left-1"></div>
+                                  <div class="u-link-underline is-left-2"></div>
+                                </div>
+                                <div class="u-link-underline-inner is-right">
+                                  <div class="u-link-underline is-right-1"></div>
+                                  <div class="u-link-underline is-right-2"></div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="nav_1_links_item">
+                          <div class="nav_1_links_link is-desktop w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">
+                            <a href="#" class="footer1_link_wrap w-inline-block">
+                              <div class="nav_1_links_text w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">collective</div>
+                              <div class="u-link-underline-wrapper">
+                                <div class="u-link-underline-inner">
+                                  <div class="u-link-underline is-left-1"></div>
+                                  <div class="u-link-underline is-left-2"></div>
+                                </div>
+                                <div class="u-link-underline-inner is-right">
+                                  <div class="u-link-underline is-right-1"></div>
+                                  <div class="u-link-underline is-right-2"></div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="nav_1_links_item">
+                          <div class="nav_1_links_link is-desktop w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">
+                            <a href="#" class="footer1_link_wrap w-inline-block">
+                              <div class="nav_1_links_text w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">about us</div>
+                              <div class="u-link-underline-wrapper">
+                                <div class="u-link-underline-inner">
+                                  <div class="u-link-underline is-left-1"></div>
+                                  <div class="u-link-underline is-left-2"></div>
+                                </div>
+                                <div class="u-link-underline-inner is-right">
+                                  <div class="u-link-underline is-right-1"></div>
+                                  <div class="u-link-underline is-right-2"></div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul role="list" class="nav_1_actions_wrap is-desktop w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23 w-list-unstyled">
+                        <li class="nav_1_buttons_item is-main is-desktop w-variant-2bc3d71f-eabc-ae91-703d-7228e78c9f23">
+                          <a data-wf--button--size="small" href="#" class="button_wrap w-inline-block">
+                            <div data-wf--button-style--style="secondary" class="button_content w-variant-8082779e-7499-ca47-c257-af9242d7c153">
+                              <div data-wf--button-layout--layout="normal" class="button_layout">
+                                <div class="button_text">CONTACT US</div>
+                                <div class="button_icon">
+                                  <div class="button_slot">
+                                    <div class="button_slot">
+                                      <div fill="none" viewbox="0 0 15 16"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 13 12" fill="none" class="u-atom-icon">
+                                          <path d="M1.86971 1.04941L6.2501 5.99951L1.86971 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                          <path d="M6.75057 1.04941L11.131 5.99951L6.75057 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                        </svg></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="u-divider-wrap  ">
+                      <div class="u-divider-layout">
+                        <div class="u-divider"></div>
+                        <div class="u-divider-side-wrap is-left">
+                          <div class="u-divider-side-line"></div>
+                        </div>
+                        <div class="u-divider-side-wrap is-right">
+                          <div class="u-divider-side-line"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <section class="footer1_group_wrap is-top-auto">
+                      <div data-delay="" class="g_paragraph w-richtext footer1_group_title u-text-style-h6 u-mb-text" data-once="" data-stagger="0.03" data-ease="sine.in" data-duration="1" data-type="alpha" data-animate="none" data-start="top 99%">
+                        <p>[social]</p>
+                      </div>
+                      <ul role="list" class="footer1_group_list w-list-unstyled">
+                        <li class="footer1_group_item">
+                          <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="https://www.instagram.com/thecrown/" data-ease="" target="_blank" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                            <div class="u-link-underline-wrapper">
+                              <div class="u-link-underline-inner">
+                                <div class="u-link-underline is-left-1"></div>
+                                <div class="u-link-underline is-left-2"></div>
+                              </div>
+                              <div class="u-link-underline-inner is-right">
+                                <div class="u-link-underline is-right-1"></div>
+                                <div class="u-link-underline is-right-2"></div>
+                              </div>
+                            </div>
+                            <div class="nav_1_links_text">instagram</div>
+                          </a>
+                        </li>
+                        <li class="footer1_group_item">
+                          <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="https://www.linkedin.com/company/the-crown-creators" data-ease="" target="_blank" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                            <div class="u-link-underline-wrapper">
+                              <div class="u-link-underline-inner">
+                                <div class="u-link-underline is-left-1"></div>
+                                <div class="u-link-underline is-left-2"></div>
+                              </div>
+                              <div class="u-link-underline-inner is-right">
+                                <div class="u-link-underline is-right-1"></div>
+                                <div class="u-link-underline is-right-2"></div>
+                              </div>
+                            </div>
+                            <div class="nav_1_links_text">linkedin</div>
+                          </a>
+                        </li>
+                        <li class="footer1_group_item">
+                          <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" target="_blank" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                            <div class="u-link-underline-wrapper">
+                              <div class="u-link-underline-inner">
+                                <div class="u-link-underline is-left-1"></div>
+                                <div class="u-link-underline is-left-2"></div>
+                              </div>
+                              <div class="u-link-underline-inner is-right">
+                                <div class="u-link-underline is-right-1"></div>
+                                <div class="u-link-underline is-right-2"></div>
+                              </div>
+                            </div>
+                            <div class="nav_1_links_text">vimeo</div>
+                          </a>
+                        </li>
+                      </ul>
+                    </section>
+                    <section class="footer1_group_wrap">
+                      <div data-delay="" class="g_paragraph w-richtext footer1_group_title u-text-style-h6 u-mb-text" data-once="" data-stagger="0.03" data-ease="sine.in" data-duration="1" data-type="alpha" data-animate="none" data-start="top 99%">
+                        <p>[contact]</p>
+                      </div>
+                      <ul role="list" class="footer1_group_list w-list-unstyled">
+                        <li class="footer1_group_item">
+                          <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="mailto:stories@thecrowncreators.com" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                            <div class="u-link-underline-wrapper">
+                              <div class="u-link-underline-inner">
+                                <div class="u-link-underline is-left-1"></div>
+                                <div class="u-link-underline is-left-2"></div>
+                              </div>
+                              <div class="u-link-underline-inner is-right">
+                                <div class="u-link-underline is-right-1"></div>
+                                <div class="u-link-underline is-right-2"></div>
+                              </div>
+                            </div>
+                            <div class="nav_1_links_text">stories@thecrowncreators.com</div>
+                          </a>
+                        </li>
+                      </ul>
+                    </section>
+                    <div class="u-width-full">
+                      <div class="logo_brand_wrap"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 306 103" fill="none" class="logo is-loader">
+                          <g clip-path="url(#clip0_8003_33089)">
+                            <path d="M236.063 0H113.582L96.1348 59.1923L78.6877 0H0L30.1515 102.302H83.4304H108.839H162.118L174.823 59.1999L187.527 102.302H266.215L236.063 0Z" fill="currentColor"></path>
+                            <path d="M265.379 64.127L276.63 102.302H306L294.749 64.127H265.379Z" fill="currentColor"></path>
+                          </g>
+                        </svg></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div class="u-hflex-left-center u-gap-4">
+              <div data-open-product="" data-wf-cart-type="rightSidebar" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper cart_wrap" data-node-type="commerce-cart-wrapper">
+                <a class="w-commerce-commercecartopenlink cart_button button_content w-inline-block" role="button" aria-haspopup="dialog" aria-label="Open cart" data-node-type="commerce-cart-open-link" href="#"><svg class="w-commerce-commercecartopenlinkicon cart_icon" width="17px" height="17px" viewbox="0 0 17 17">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <path d="M2.60592789,2 L0,2 L0,0 L4.39407211,0 L4.84288393,4 L16,4 L16,9.93844589 L3.76940945,12.3694378 L2.60592789,2 Z M15.5,17 C14.6715729,17 14,16.3284271 14,15.5 C14,14.6715729 14.6715729,14 15.5,14 C16.3284271,14 17,14.6715729 17,15.5 C17,16.3284271 16.3284271,17 15.5,17 Z M5.5,17 C4.67157288,17 4,16.3284271 4,15.5 C4,14.6715729 4.67157288,14 5.5,14 C6.32842712,14 7,14.6715729 7,15.5 C7,16.3284271 6.32842712,17 5.5,17 Z" fill="currentColor" fill-rule="nonzero"></path>
+                    </g>
+                  </svg>
+                  <div class="w-commerce-commercecartopenlinkcount u-cart-quantity">0</div>
+                </a>
+                <div style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-rightSidebar" data-node-type="commerce-cart-container-wrapper">
+                  <div data-node-type="commerce-cart-container" role="dialog" class="w-commerce-commercecartcontainer cart_container">
+                    <div class="w-commerce-commercecartheader cart-header">
+                      <h4 class="w-commerce-commercecartheading u-text-style-h5">Your Cart</h4>
+                      <a class="w-commerce-commercecartcloselink w-inline-block" role="button" aria-label="Close cart" data-node-type="commerce-cart-close-link">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 15 16" fill="none" class="u-atom-icon">
+                            <path d="M12.0789 3.47058L2.92099 12.6284M2.9209 3.47058L12.0788 12.6284" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" stroke-width="var(--border-width--icon-width)"></path>
+                          </svg></div>
+                      </a>
+                    </div>
+                    <div class="w-commerce-commercecartformwrapper">
+                      <form style="display:none" class="w-commerce-commercecartform" data-node-type="commerce-cart-form">
+                        <script type="text/x-wf-template" id="wf-template-5567fc37-ac5e-f5ce-9983-ab50e2bf8a24"></script>
+                        <div class="w-commerce-commercecartlist" data-wf-collection="database.commerceOrder.userItems" data-wf-template-id="wf-template-5567fc37-ac5e-f5ce-9983-ab50e2bf8a24"></div>
+                        <div class="w-commerce-commercecartfooter cart-footer">
+                          <div aria-atomic="true" aria-live="polite" class="w-commerce-commercecartlineitem u-mb-text">
+                            <div class="u-text-style-h4">Subtotal</div>
+                            <div class="w-commerce-commercecartordervalue u-text-style-h4"></div>
+                          </div>
+                          <div>
+                            <div data-node-type="commerce-cart-quick-checkout-actions">
+                              <a data-node-type="commerce-cart-apple-pay-button" role="button" aria-label="Apple Pay" aria-haspopup="dialog" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton apple-pay" tabindex="0">
+                                <div></div>
+                              </a>
+                              <a data-node-type="commerce-cart-quick-checkout-button" role="button" tabindex="0" aria-haspopup="dialog" style="display:none" class="w-commerce-commercecartquickcheckoutbutton"><svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewbox="0 0 16 16">
+                                  <defs>
+                                    <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
+                                    <polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon>
+                                  </defs>
+                                  <g fill="none" fill-rule="evenodd">
+                                    <path fill="#4285F4" d="M10.5967,12.0469 L10.5967,14.0649 L13.1167,14.0649 C14.6047,12.6759 15.4577,10.6209 15.4577,8.1779 C15.4577,7.6339 15.4137,7.0889 15.3257,6.5559 L7.8887,6.5559 L7.8887,9.6329 L12.1507,9.6329 C11.9767,10.6119 11.4147,11.4899 10.5967,12.0469"></path>
+                                    <path fill="#34A853" d="M7.8887,16 C10.0137,16 11.8107,15.289 13.1147,14.067 C13.1147,14.066 13.1157,14.065 13.1167,14.064 L10.5967,12.047 C10.5877,12.053 10.5807,12.061 10.5727,12.067 C9.8607,12.556 8.9507,12.833 7.8887,12.833 C5.8577,12.833 4.1387,11.457 3.4937,9.605 L0.8747,9.605 L0.8747,11.648 C2.2197,14.319 4.9287,16 7.8887,16"></path>
+                                    <g transform="translate(0 4)">
+                                      <mask id="google-mark-b" fill="#fff">
+                                        <use xlink:href="#google-mark-a"></use>
+                                      </mask>
+                                      <path fill="#FBBC04" d="M3.4639,5.5337 C3.1369,4.5477 3.1359,3.4727 3.4609,2.4757 L3.4639,2.4777 C3.4679,2.4657 3.4749,2.4547 3.4789,2.4427 L3.4939,0.3287 L0.8939,0.3287 C0.8799,0.3577 0.8599,0.3827 0.8459,0.4117 C-0.2821,2.6667 -0.2821,5.3337 0.8459,7.5887 L0.8459,7.5997 C0.8549,7.6167 0.8659,7.6317 0.8749,7.6487 L3.4939,5.6057 C3.4849,5.5807 3.4729,5.5587 3.4639,5.5337" mask="url(#google-mark-b)"></path>
+                                    </g>
+                                    <mask id="google-mark-d" fill="#fff">
+                                      <use xlink:href="#google-mark-c"></use>
+                                    </mask>
+                                    <path fill="#EA4335" d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291" mask="url(#google-mark-d)"></path>
+                                  </g>
+                                </svg><svg class="w-commerce-commercequickcheckoutmicrosofticon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16">
+                                  <g fill="none" fill-rule="evenodd">
+                                    <polygon fill="#F05022" points="7 7 1 7 1 1 7 1"></polygon>
+                                    <polygon fill="#7DB902" points="15 7 9 7 9 1 15 1"></polygon>
+                                    <polygon fill="#00A4EE" points="7 15 1 15 1 9 7 9"></polygon>
+                                    <polygon fill="#FFB700" points="15 15 9 15 9 9 15 9"></polygon>
+                                  </g>
+                                </svg>
+                                <div>Pay with browser.</div>
+                              </a>
+                            </div>
+                            <a href="checkout.html" value="Continue to Checkout" class="w-commerce-commercecartcheckoutbutton button_content is-cart" data-loading-text="Hang Tight..." data-node-type="cart-checkout-button">Continue to Checkout</a>
+                          </div>
+                        </div>
+                      </form>
+                      <div class="w-commerce-commercecartemptystate">
+                        <div aria-label="This cart is empty" aria-live="polite">No items found.</div>
+                      </div>
+                      <div aria-live="assertive" style="display:none" data-node-type="commerce-cart-error" class="w-commerce-commercecarterrorstate">
+                        <div class="w-cart-error-msg" data-w-cart-quantity-error="Product is not available in this quantity." data-w-cart-general-error="Something went wrong when adding this item to the cart." data-w-cart-checkout-error="Checkout is disabled on this site." data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue." data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">Product is not available in this quantity.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hamburguer-wrapper w-nav-button">
+                <div class="hamburguer-inner-wrap">
+                  <div class="u-text-style-h6">menu</div>
+                  <div class="hamburger_10_wrap">
+                    <div class="hamburger_10_line">
+                      <div class="hamburger_10_inner"></div>
+                    </div>
+                    <div class="hamburger_embed w-embed">
+                      <style>
+.hamburger_10_wrap {
+	--thickness: 1px;
+	--gap: 0.2rem;
+	--rotate: 45;
+}
+.w--open .hamburger_10_line > * {
+  transition-delay: 300ms;
+}
+.w--open .hamburger_10_line {
+	transform: scaleX(0);
+}
+.w--open .hamburger_10_line:first-child {
+	transform: translateY(calc(var(--thickness) + var(--gap)));
+}
+.w--open .hamburger_10_line:first-child > * {
+	transform: rotate(calc(var(--rotate) * 1deg));
+}
+.w--open .hamburger_10_line:last-child {
+	transform: translateY(calc(var(--thickness) * -1 + var(--gap) * -1));
+}
+.w--open .hamburger_10_line:last-child > * {
+	transform: rotate(calc(var(--rotate) * -1deg));
+}
+</style>
+                    </div>
+                    <div class="hamburger_10_line is-middle">
+                      <div class="hamburger_10_inner"></div>
+                    </div>
+                    <div class="hamburger_10_line">
+                      <div class="hamburger_10_inner"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav_1_dropdown_backdrop"></div>
+        <div class="nav_1_menu_backdrop"></div>
+        <div class="nav_1_background"></div>
+      </header>
+      <div class="page-main">
+        <main id="main" class="page_main">
+          <section data-wf--section-full--styles-theme="inherit" class="section">
+            <div data-wf--global-section-space--section-space="main" class="g_section_space w-variant-60a7ad7d-02b0-6682-95a5-2218e6fd1490"></div>
+            <div class="u-container">
+              <div class="u-grid-autofit">
+                <div data-wf--global-content--variant="base" class="u-display-contents">
+                  <div class="g_content u-margin-trim u-align-self-center u-width-full">
+                    <div class="g_eyebrow_wrap u-mb-5">
+                      <div class="g_eyebrow_layout">
+                        <div class="g_eyebrow_marker"></div>
+                        <div class="g_eyebrow_text u-text-style-main w-richtext">
+                          <p>Eyebrow Text Here</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-delay="" class="g_heading w-richtext u-text-style-h2 u-mb-text u-max-width-20ch u-child-contain" data-once="" data-stagger="0.05" data-ease="" data-duration="1" data-type="lines" data-animate="text" data-start="top 85%">
+                      <h2>Lorem ipsum dolor sit amet elit</h2>
+                    </div>
+                    <div data-delay="" class="g_paragraph w-richtext u-text-style-main u-mb-text u-max-width-50ch u-child-contain" data-once="" data-stagger="0.03" data-ease="" data-duration="1.2" data-type="lines" data-animate="text" data-start="top 85%">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                    <div class="u-display-contents">
+                      <div class="u-btn-group">
+                        <a data-wf--button--size="medium" href="#" class="button_wrap w-variant-4b4ef700-5259-79e3-7506-9dc89abb8e6f w-inline-block">
+                          <div data-wf--button-style--style="primary" class="button_content">
+                            <div data-wf--button-layout--layout="normal" class="button_layout">
+                              <div class="button_text">Button Text</div>
+                              <div class="button_icon">
+                                <div class="button_slot">
+                                  <div class="button_slot">
+                                    <div fill="none" viewbox="0 0 15 16"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 13 12" fill="none" class="u-atom-icon">
+                                        <path d="M1.86971 1.04941L6.2501 5.99951L1.86971 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                        <path d="M6.75057 1.04941L11.131 5.99951L6.75057 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                      </svg></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <a data-wf--button--size="medium" href="#" class="button_wrap w-variant-4b4ef700-5259-79e3-7506-9dc89abb8e6f w-inline-block">
+                          <div data-wf--button-style--style="secondary" class="button_content w-variant-8082779e-7499-ca47-c257-af9242d7c153">
+                            <div data-wf--button-layout--layout="normal" class="button_layout">
+                              <div class="button_text">Button Text</div>
+                              <div class="button_icon">
+                                <div class="button_slot">
+                                  <div class="button_slot">
+                                    <div fill="none" viewbox="0 0 15 16"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 13 12" fill="none" class="u-atom-icon">
+                                        <path d="M1.86971 1.04941L6.2501 5.99951L1.86971 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                        <path d="M6.75057 1.04941L11.131 5.99951L6.75057 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                      </svg></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="g_visual_wrap u-position-relative u-visual-wrap u-height-full u-radius-main" style="object-position: 50% 50%;">
+                  <div class="g_visual_background u-cover-absolute"></div><img src="images/placeholder.svg" loading="lazy" alt="" class="g_visual_img u-cover-absolute">
+                </div>
+              </div>
+            </div>
+            <div data-wf--global-section-space--section-space="main" class="g_section_space w-variant-60a7ad7d-02b0-6682-95a5-2218e6fd1490"></div>
+          </section>
+        </main>
+      </div>
+      <footer data-animate-theme-to="dark" data-wf--global-footer--variant="base" class="page-footer">
+        <div data-wf--global-section-space--section-space="large" class="g_section_space w-variant-8cc18b30-4618-8767-0111-f6abfe45aaa3"></div>
+        <h2 class="footer1_title u-sr-only">Footer</h2>
+        <div class="u-cover-absolute">
+          <div class="g_visual_wrap u-position-relative u-cover-absolute" style="object-position: 50% 50%;">
+            <div class="g_visual_background u-cover-absolute"></div><img src="images/bg_footer.png" loading="lazy" alt="" sizes="(max-width: 2201px) 100vw, 2201px" srcset="images/b76ee76d92c4ea1815cc20faf0398e5b_bg_footer-p-500.png 500w, images/b76ee76d92c4ea1815cc20faf0398e5b_bg_footer-p-800.png 800w, images/b76ee76d92c4ea1815cc20faf0398e5b_bg_footer-p-1080.png 1080w, images/b76ee76d92c4ea1815cc20faf0398e5b_bg_footer-p-1600.png 1600w, images/b76ee76d92c4ea1815cc20faf0398e5b_bg_footer-p-2000.png 2000w, images/bg_footer.png 2201w" class="g_visual_img u-cover-absolute">
+          </div>
+          <div class="u-overlay-gradient is-footer"></div>
+        </div>
+        <div class="footer1_contain u-container-full">
+          <nav class="footer1_layout u-grid-tablet">
+            <div class="footer1_content u-column-4">
+              <a aria-label="Go to the homepage" href="#" class="footer1_logo_wrap u-mb-4 u-max-width-40ch w-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 338 38" fill="none" class="svg">
+                  <path d="M83.007 0.243164H39.9402L33.8054 21.7297L27.6707 0.243164H0L10.6049 37.3778H29.3352H38.2707H57.0059L61.4761 21.7297L65.9413 37.3778H93.612L83.007 0.243164Z" fill="currentColor"></path>
+                  <path d="M93.3208 23.5225L97.2773 37.3775H107.601L103.644 23.5225H93.3208Z" fill="currentColor"></path>
+                  <path d="M172.139 4.6792C172.139 1.64146 173.937 0.120117 176.407 0.120117C178.323 0.120117 180.106 1.24137 180.304 3.35544H178.793C178.61 2.10083 177.548 1.42412 176.407 1.42412C174.797 1.42412 173.651 2.50586 173.651 4.68415C173.651 6.86243 174.792 7.92935 176.407 7.92935C177.553 7.92935 178.595 7.26746 178.793 6.01285H180.304C180.106 8.14174 178.323 9.24817 176.407 9.24817C173.937 9.24817 172.139 7.71202 172.139 4.68415" fill="currentColor"></path>
+                  <path d="M182.68 4.5311H184.695C186.009 4.5311 186.528 3.9038 186.528 3.02952C186.528 2.15524 186.009 1.59215 184.695 1.59215H182.68V4.5311ZM181.228 9.0655V0.283203H184.794C187.288 0.283203 188.039 1.45385 188.039 2.79243C188.039 3.90874 187.634 4.69904 186.503 5.06456V5.18805C187.476 5.49429 187.866 6.13642 188.128 7.31695L188.508 9.06056H187.031L186.661 7.37622C186.463 6.44267 186.108 5.82524 184.754 5.82524H182.675V9.06056H181.223L181.228 9.0655Z" fill="currentColor"></path>
+                  <path d="M196.021 4.6792C196.021 2.59971 194.949 1.41919 193.181 1.41919C191.413 1.41919 190.326 2.59971 190.326 4.6792C190.326 6.7587 191.398 7.92441 193.181 7.92441C194.964 7.92441 196.021 6.75376 196.021 4.6792ZM188.814 4.6792C188.814 1.75506 190.459 0.120117 193.181 0.120117C195.903 0.120117 197.533 1.75506 197.533 4.6792C197.533 7.60334 195.883 9.24324 193.181 9.24324C190.479 9.24324 188.814 7.60828 188.814 4.6792Z" fill="currentColor"></path>
+                  <path d="M199.943 9.06545L197.458 0.288086H199.093L200.842 7.14895H200.965L202.724 0.288086H204.384L206.142 7.14895H206.265L208.009 0.288086H209.56L207.1 9.06545H205.228L203.583 2.77262H203.46L201.81 9.06545H199.943Z" fill="currentColor"></path>
+                  <path d="M210.024 9.06545V0.288086H211.6L216.065 6.60561H216.189V0.288086H217.636V9.06545H216.065L211.6 2.74792H211.477V9.06545H210.024Z" fill="currentColor"></path>
+                  <path d="M281.942 5.89477C281.942 3.63252 283.395 2.55078 285.252 2.55078C286.714 2.55078 288.033 3.36085 288.215 4.91183H286.862C286.704 4.10176 285.988 3.67203 285.237 3.67203C284.155 3.67203 283.365 4.4327 283.365 5.89971C283.365 7.36672 284.15 8.11257 285.237 8.11257C285.988 8.11257 286.699 7.69272 286.862 6.88266H288.215C288.033 8.43364 286.714 9.2437 285.252 9.2437C283.395 9.2437 281.942 8.16197 281.942 5.89971" fill="currentColor"></path>
+                  <path d="M294.261 5.89477C294.261 4.39319 293.451 3.66709 292.281 3.66709C291.11 3.66709 290.315 4.39319 290.315 5.89477C290.315 7.39636 291.115 8.10763 292.295 8.10763C293.476 8.10763 294.261 7.39142 294.261 5.89477ZM288.887 5.89477C288.887 3.63252 290.315 2.55078 292.281 2.55078C294.246 2.55078 295.674 3.63252 295.674 5.89477C295.674 8.15703 294.261 9.23877 292.281 9.23877C290.3 9.23877 288.887 8.15703 288.887 5.89477Z" fill="currentColor"></path>
+                  <path d="M298.045 0.288086H296.657V9.07038H298.045V0.288086Z" fill="currentColor"></path>
+                  <path d="M300.668 0.288086H299.28V9.07038H300.668V0.288086Z" fill="currentColor"></path>
+                  <path d="M306.655 5.29216C306.541 4.21043 305.805 3.60782 304.896 3.60782C303.987 3.60782 303.222 4.20055 303.078 5.29216H306.659H306.655ZM301.651 5.89477C301.651 3.66709 303.054 2.55078 304.96 2.55078C306.867 2.55078 308.082 3.756 308.082 5.77129C308.082 5.90465 308.067 6.12693 308.042 6.26523H303.039C303.138 7.49515 303.923 8.17185 304.945 8.17185C305.573 8.17185 306.161 7.8903 306.447 7.37166H307.825C307.455 8.53736 306.348 9.23877 304.96 9.23877C302.92 9.23877 301.651 7.97427 301.651 5.89477Z" fill="currentColor"></path>
+                  <path d="M308.823 5.89477C308.823 3.63252 310.275 2.55078 312.132 2.55078C313.594 2.55078 314.913 3.36085 315.096 4.91183H313.742C313.584 4.10176 312.868 3.67203 312.117 3.67203C311.036 3.67203 310.25 4.4327 310.25 5.89971C310.25 7.36672 311.036 8.11257 312.117 8.11257C312.868 8.11257 313.579 7.69272 313.742 6.88266H315.096C314.913 8.43364 313.594 9.2437 312.132 9.2437C310.275 9.2437 308.823 8.16197 308.823 5.89971" fill="currentColor"></path>
+                  <path d="M316.726 9.0658V3.9041H315.239V2.72358H316.726V1.02441H318.119V2.72358H319.779V3.9041H318.119V9.0658H316.726Z" fill="currentColor"></path>
+                  <path d="M320.638 2.72314H322.026V9.0703H320.638V2.72314ZM320.49 0.974582C320.49 0.480639 320.845 0.125 321.339 0.125C321.833 0.125 322.189 0.480639 322.189 0.974582C322.189 1.46852 321.833 1.82416 321.339 1.82416C320.845 1.82416 320.49 1.46852 320.49 0.974582Z" fill="currentColor"></path>
+                  <path d="M325.054 9.06585L322.396 2.72363H323.923L325.78 7.37163H325.899L327.731 2.72363H329.198L326.551 9.06585H325.054Z" fill="currentColor"></path>
+                  <path d="M334.226 5.29216C334.118 4.21043 333.377 3.60782 332.468 3.60782C331.559 3.60782 330.793 4.20055 330.645 5.29216H334.221H334.226ZM329.223 5.89477C329.223 3.66709 330.625 2.55078 332.532 2.55078C334.439 2.55078 335.654 3.756 335.654 5.77129C335.654 5.90465 335.644 6.12693 335.614 6.26523H330.611C330.709 7.49515 331.495 8.17185 332.517 8.17185C333.145 8.17185 333.732 7.8903 334.019 7.37166H335.397C335.026 8.53736 333.92 9.23877 332.532 9.23877C330.492 9.23877 329.223 7.97427 329.223 5.89477Z" fill="currentColor"></path>
+                  <path d="M336.143 8.22054C336.143 7.70684 336.538 7.29688 337.076 7.29688C337.615 7.29688 338 7.70191 338 8.22054C338 8.76388 337.595 9.1541 337.076 9.1541C336.557 9.1541 336.143 8.75894 336.143 8.22054Z" fill="currentColor"></path>
+                  <path d="M171.813 21.2657V21.1669H172.435V21.2361C172.435 22.0511 172.989 22.8167 174.628 22.8167C176.268 22.8167 176.841 22.1301 176.841 21.325C176.841 19.1615 172.095 20.7816 172.095 17.8723C172.095 16.8548 172.786 15.8916 174.668 15.8916C176.55 15.8916 177.232 16.9091 177.232 18.0452V18.0946H176.609V18.0452C176.609 17.1116 176.056 16.4349 174.638 16.4349C173.221 16.4349 172.717 17.1314 172.717 17.9118C172.717 20.184 177.469 18.554 177.469 21.3744C177.469 22.382 176.664 23.3551 174.628 23.3551C172.766 23.3551 171.813 22.4709 171.813 21.2608" fill="currentColor"></path>
+                  <path d="M178.946 16.0352H178.323V23.2171H178.946V16.0352Z" fill="currentColor"></path>
+                  <path d="M180.002 23.2171V16.0352H180.729L185.223 22.1897H185.327V16.0352H185.949V23.2171H185.223L180.729 17.0625H180.63V23.2171H180.002Z" fill="currentColor"></path>
+                  <path d="M186.804 19.6456C186.804 17.1018 188.281 15.8916 190.143 15.8916C191.704 15.8916 192.929 16.8054 193.151 18.2032H192.539C192.326 17.1067 191.363 16.43 190.143 16.43C188.602 16.43 187.427 17.4574 187.427 19.6406C187.427 21.8238 188.602 22.8117 190.143 22.8117C191.358 22.8117 192.326 22.1449 192.539 21.0385H193.151C192.929 22.466 191.704 23.3551 190.143 23.3551C188.281 23.3551 186.804 22.1499 186.804 19.6406" fill="currentColor"></path>
+                  <path d="M194.011 23.2171V16.0352H198.901V16.5785H194.633V19.3545H198.446V19.8978H194.633V22.6737H198.95V23.2171H194.011Z" fill="currentColor"></path>
+                  <path d="M219.893 23.2168V22.6734L222.902 19.774C223.465 19.2307 223.805 18.5737 223.805 18.0452C223.805 17.0474 223.163 16.4349 222.166 16.4349C221.262 16.4349 220.476 16.9388 220.476 18.2675C220.476 18.3267 220.486 18.3959 220.486 18.47H219.874C219.864 18.3811 219.864 18.2773 219.864 18.1884C219.864 17.0227 220.506 15.8916 222.17 15.8916C223.558 15.8916 224.433 16.7461 224.433 18.0551C224.433 18.9392 223.707 19.8036 223.208 20.2778L220.773 22.5697V22.6685H224.448V23.2118H219.898L219.893 23.2168Z" fill="currentColor"></path>
+                  <path d="M229.219 19.6258C229.219 17.0079 228.271 16.4349 227.376 16.4349C226.482 16.4349 225.524 17.0079 225.524 19.6258C225.524 22.2437 226.492 22.8167 227.376 22.8167C228.261 22.8167 229.219 22.2437 229.219 19.6258ZM224.902 19.6258C224.902 16.7906 226.068 15.8916 227.376 15.8916C228.685 15.8916 229.841 16.7856 229.841 19.6258C229.841 22.466 228.676 23.36 227.376 23.36C226.077 23.36 224.902 22.466 224.902 19.6258Z" fill="currentColor"></path>
+                  <path d="M232.119 23.2171V16.7464H232.015L230.558 17.596L230.296 17.0823L232.119 16.0352H232.741V23.2171H232.119Z" fill="currentColor"></path>
+                  <path d="M237.71 18.0946C237.71 17.2104 237.186 16.4349 235.907 16.4349C234.731 16.4349 234.114 17.2598 234.114 18.144C234.114 19.0281 234.628 19.7839 235.907 19.7839C237.043 19.7839 237.71 18.9886 237.71 18.0946ZM233.709 21.3546H234.331C234.43 22.1894 234.954 22.8117 235.942 22.8117C237.231 22.8117 237.952 21.7843 237.952 19.2603H237.853C237.251 20.0852 236.603 20.3272 235.808 20.3272C234.45 20.3272 233.497 19.5616 233.497 18.144C233.497 16.8844 234.484 15.8916 235.912 15.8916C238.056 15.8916 238.569 17.6006 238.569 19.5221C238.569 22.0264 237.581 23.3551 235.942 23.3551C234.44 23.3551 233.808 22.4512 233.709 21.3546Z" fill="currentColor"></path>
+                  <path d="M222.378 37.3782V30.7347H219.888V30.1963H225.485V30.7347H223V37.3782H222.378Z" fill="currentColor"></path>
+                  <path d="M226.087 37.3782V30.1963H226.715V33.5156H231.412V30.1963H232.034V37.3782H231.412V34.0589H226.715V37.3782H226.087Z" fill="currentColor"></path>
+                  <path d="M233.091 37.3782V30.1963H237.981V30.7347H233.714V33.5156H237.527V34.0589H233.714V36.8349H238.031V37.3782H233.091Z" fill="currentColor"></path>
+                  <path d="M245.543 33.8165C245.543 31.2727 247.02 30.0625 248.883 30.0625C250.443 30.0625 251.668 30.9763 251.891 32.3791H251.278C251.066 31.2825 250.103 30.6058 248.883 30.6058C247.341 30.6058 246.166 31.6332 246.166 33.8165C246.166 35.9997 247.341 36.9876 248.883 36.9876C250.098 36.9876 251.066 36.3257 251.278 35.2143H251.891C251.668 36.6418 250.443 37.5309 248.883 37.5309C247.02 37.5309 245.543 36.3208 245.543 33.8165Z" fill="currentColor"></path>
+                  <path d="M253.373 33.9254H255.467C256.905 33.9254 257.339 33.1104 257.339 32.3251C257.339 31.5397 256.905 30.7445 255.467 30.7445H253.373V33.9254ZM252.75 37.388V30.2061H255.368C257.319 30.2061 257.967 31.11 257.967 32.2263C257.967 33.0512 257.695 33.7575 256.658 34.0687V34.1675C257.561 34.3996 257.843 34.9924 258.065 35.8765L258.446 37.388H257.804L257.443 35.9506C257.26 35.2443 257.028 34.4737 255.531 34.4737H253.378V37.3929H252.755L252.75 37.388Z" fill="currentColor"></path>
+                  <path d="M264.975 33.7967C264.975 31.732 263.948 30.6058 262.179 30.6058C260.411 30.6058 259.374 31.732 259.374 33.7967C259.374 35.8614 260.401 36.9876 262.179 36.9876C263.958 36.9876 264.975 35.8614 264.975 33.7967ZM258.747 33.7967C258.747 31.4011 260.036 30.0625 262.179 30.0625C264.323 30.0625 265.602 31.4011 265.602 33.7967C265.602 36.1923 264.313 37.5309 262.179 37.5309C260.046 37.5309 258.747 36.1923 258.747 33.7967Z" fill="currentColor"></path>
+                  <path d="M267.752 37.388L265.697 30.2061H266.364L268.122 36.4643H268.226L269.866 30.2061H270.7L272.36 36.4643H272.459L274.212 30.2061H274.854L272.8 37.388H271.975L270.325 31.1495H270.226L268.576 37.388H267.752Z" fill="currentColor"></path>
+                  <path d="M275.358 37.388V30.2061H276.079L280.579 36.3606H280.678V30.2061H281.305V37.388H280.579L276.079 31.2285H275.98V37.388H275.358Z" fill="currentColor"></path>
+                  <path d="M288.275 33.8165C288.275 31.2727 289.752 30.0625 291.614 30.0625C293.175 30.0625 294.4 30.9763 294.622 32.3791H294.01C293.797 31.2825 292.834 30.6058 291.614 30.6058C290.073 30.6058 288.897 31.6332 288.897 33.8165C288.897 35.9997 290.073 36.9876 291.614 36.9876C292.829 36.9876 293.797 36.3257 294.01 35.2143H294.622C294.4 36.6418 293.175 37.5309 291.614 37.5309C289.752 37.5309 288.275 36.3208 288.275 33.8165Z" fill="currentColor"></path>
+                  <path d="M296.104 33.9254H298.198C299.636 33.9254 300.07 33.1104 300.07 32.3251C300.07 31.5397 299.636 30.7445 298.198 30.7445H296.104V33.9254ZM295.477 37.388V30.2061H298.094C300.046 30.2061 300.693 31.11 300.693 32.2263C300.693 33.0512 300.421 33.7575 299.384 34.0687V34.1675C300.288 34.3996 300.569 34.9924 300.791 35.8765L301.172 37.388H300.53L300.169 35.9506C299.986 35.2443 299.754 34.4737 298.257 34.4737H296.104V37.3929H295.482L295.477 37.388Z" fill="currentColor"></path>
+                  <path d="M302.026 37.388V30.2061H306.921V30.7494H302.653V33.5253H306.466V34.0687H302.653V36.8446H306.97V37.388H302.026Z" fill="currentColor"></path>
+                  <path d="M308.921 34.9133H312.26L310.64 31.0408H310.542L308.921 34.9133ZM307.217 37.388L310.265 30.2061H310.927L313.974 37.388H313.288L312.483 35.4567H308.679L307.874 37.388H307.212H307.217Z" fill="currentColor"></path>
+                  <path d="M315.461 37.388V30.7494H312.977V30.2061H318.568V30.7494H316.083V37.388H315.461Z" fill="currentColor"></path>
+                  <path d="M324.698 33.7967C324.698 31.732 323.67 30.6058 321.902 30.6058C320.134 30.6058 319.097 31.732 319.097 33.7967C319.097 35.8614 320.124 36.9876 321.902 36.9876C323.68 36.9876 324.698 35.8614 324.698 33.7967ZM318.469 33.7967C318.469 31.4011 319.758 30.0625 321.902 30.0625C324.046 30.0625 325.325 31.4011 325.325 33.7967C325.325 36.1923 324.036 37.5309 321.902 37.5309C319.768 37.5309 318.469 36.1923 318.469 33.7967Z" fill="currentColor"></path>
+                  <path d="M326.797 33.9254H328.891C330.329 33.9254 330.764 33.1104 330.764 32.3251C330.764 31.5397 330.329 30.7445 328.891 30.7445H326.797V33.9254ZM326.175 37.388V30.2061H328.793C330.744 30.2061 331.391 31.11 331.391 32.2263C331.391 33.0512 331.119 33.7575 330.082 34.0687V34.1675C330.986 34.3996 331.267 34.9924 331.49 35.8765L331.87 37.388H331.228L330.867 35.9506C330.684 35.2443 330.452 34.4737 328.956 34.4737H326.802V37.3929H326.18L326.175 37.388Z" fill="currentColor"></path>
+                  <path d="M332.334 35.4366V35.3378H332.957V35.407C332.957 36.222 333.51 36.9876 335.15 36.9876C336.79 36.9876 337.363 36.301 337.363 35.4959C337.363 33.3324 332.616 34.9525 332.616 32.0432C332.616 31.0257 333.308 30.0625 335.189 30.0625C337.071 30.0625 337.753 31.08 337.753 32.2161V32.2655H337.131V32.2161C337.131 31.2825 336.577 30.6058 335.16 30.6058C333.742 30.6058 333.238 31.3023 333.238 32.0827C333.238 34.3549 337.99 32.7249 337.99 35.5453C337.99 36.5529 337.185 37.526 335.15 37.526C333.288 37.526 332.334 36.6418 332.334 35.4317" fill="currentColor"></path>
+                  <path d="M251.101 20.7427V20.2141C251.101 20.2141 251.091 20.1895 251.076 20.1895H247.203C247.203 20.1895 247.179 20.1993 247.179 20.2141V20.7427C247.179 20.7427 247.189 20.7674 247.203 20.7674H251.076C251.076 20.7674 251.101 20.7575 251.101 20.7427Z" fill="currentColor"></path>
+                  <path d="M249.732 18.6135C249.732 18.6135 249.717 18.5986 249.707 18.5986H248.571C248.571 18.5986 248.552 18.6036 248.547 18.6135L248.27 19.5766C248.27 19.5766 248.28 19.6063 248.295 19.6063H248.996C248.996 19.6063 249.016 19.6013 249.021 19.5915L249.115 19.2655C249.115 19.2655 249.154 19.2408 249.159 19.2655L249.253 19.5915C249.253 19.5915 249.263 19.6063 249.278 19.6063H249.979C249.979 19.6063 250.009 19.5915 250.004 19.5766L249.727 18.6135H249.732Z" fill="currentColor"></path>
+                  <path d="M251.352 18.5987H250.651C250.651 18.5987 250.631 18.6086 250.626 18.6135L250.35 19.5767C250.35 19.5767 250.359 19.6063 250.374 19.6063H251.076C251.076 19.6063 251.095 19.6014 251.1 19.5866L251.377 18.6234C251.377 18.6234 251.367 18.5938 251.352 18.5938" fill="currentColor"></path>
+                  <path d="M247.653 18.6135C247.653 18.6135 247.638 18.5986 247.628 18.5986H246.927C246.927 18.5986 246.897 18.6134 246.902 18.6283L247.179 19.5915C247.179 19.5915 247.188 19.6063 247.203 19.6063H247.905C247.905 19.6063 247.934 19.5915 247.929 19.5766L247.653 18.6135Z" fill="currentColor"></path>
+                  <path d="M249.14 16.4007C247.362 16.4007 245.914 17.8479 245.914 19.6212C245.914 21.3944 247.362 22.8466 249.14 22.8466C250.918 22.8466 252.365 21.3994 252.365 19.6212C252.365 17.843 250.918 16.4007 249.14 16.4007ZM249.14 23.2171C247.159 23.2171 245.549 21.6068 245.549 19.6261C245.549 17.6454 247.159 16.0352 249.14 16.0352C251.121 16.0352 252.731 17.6454 252.731 19.6261C252.731 21.6068 251.121 23.2171 249.14 23.2171Z" fill="currentColor"></path>
+                </svg></a>
+              <div class="footer1_bottom_text u-text-style-h6 u-color-faded">© <span class="textyear">2040</span> Copyright.</div>
+            </div>
+            <div class="footer1_nav u-grid-subgrid u-column-5">
+              <section class="footer1_group_wrap u-column-2">
+                <div data-delay="" class="g_paragraph w-richtext footer1_group_title u-text-style-h6 u-mb-text" data-once="" data-stagger="0.03" data-ease="sine.in" data-duration="1" data-type="alpha" data-animate="text" data-start="top 99%">
+                  <p>[menu]</p>
+                </div>
+                <ul role="list" class="footer1_group_list w-list-unstyled">
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="crown-agency.html" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">Crown agency</div>
+                    </a>
+                  </li>
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="crown-studio.html" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">crown studio</div>
+                    </a>
+                  </li>
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">collective</div>
+                    </a>
+                  </li>
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">about us</div>
+                    </a>
+                  </li>
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">CONTACT</div>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+              <section class="footer1_group_wrap u-column-2">
+                <div data-delay="" class="g_paragraph w-richtext footer1_group_title u-text-style-h6 u-mb-text" data-once="" data-stagger="0.03" data-ease="sine.in" data-duration="1" data-type="alpha" data-animate="text" data-start="top 99%">
+                  <p>[office]</p>
+                </div>
+                <ul role="list" class="footer1_group_list w-list-unstyled">
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">Carr. de Fuencarral,44, 28108 Madrid</div>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+              <section class="footer1_group_wrap u-column-2">
+                <div data-delay="" class="g_paragraph w-richtext footer1_group_title u-text-style-h6 u-mb-text" data-once="" data-stagger="0.03" data-ease="sine.in" data-duration="1" data-type="alpha" data-animate="text" data-start="top 99%">
+                  <p>[social]</p>
+                </div>
+                <ul role="list" class="footer1_group_list w-list-unstyled">
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="https://www.instagram.com/thecrown/" data-ease="" target="_blank" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">instagram</div>
+                    </a>
+                  </li>
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="https://www.linkedin.com/company/the-crown-creators" data-ease="" target="_blank" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">linkedin</div>
+                    </a>
+                  </li>
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" target="_blank" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">vimeo</div>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+              <section class="footer1_group_wrap u-column-2">
+                <div data-delay="" class="g_paragraph w-richtext footer1_group_title u-text-style-h6 u-mb-text" data-once="" data-stagger="0.03" data-ease="sine.in" data-duration="1" data-type="alpha" data-animate="text" data-start="top 99%">
+                  <p>[contact]</p>
+                </div>
+                <ul role="list" class="footer1_group_list w-list-unstyled">
+                  <li class="footer1_group_item">
+                    <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="mailto:stories@thecrowncreators.com" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                      <div class="u-link-underline-wrapper">
+                        <div class="u-link-underline-inner">
+                          <div class="u-link-underline is-left-1"></div>
+                          <div class="u-link-underline is-left-2"></div>
+                        </div>
+                        <div class="u-link-underline-inner is-right">
+                          <div class="u-link-underline is-right-1"></div>
+                          <div class="u-link-underline is-right-2"></div>
+                        </div>
+                      </div>
+                      <div class="nav_1_links_text">stories@thecrowncreators.com</div>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </nav>
+        </div>
+        <div class="footer1_bottom_wrap">
+          <div class="footer1_bottom_contain u-container-full">
+            <div class="footer1_layout u-grid-tablet">
+              <div class="footer1_content u-column-4 is-last">
+                <div data-delay="" class="g_heading w-richtext u-text-style-h5 u-mb-text u-max-width-20ch u-child-contain" data-once="" data-stagger="0.05" data-ease="" data-duration="1" data-type="lines" data-animate="text" data-start="top 85%">
+                  <h2>Newsletter</h2>
+                </div>
+                <div data-delay="" class="g_paragraph w-richtext u-text-style-main u-mb-text u-max-width-40ch u-child-contain" data-once="" data-stagger="0.03" data-ease="" data-duration="1.2" data-type="lines" data-animate="text" data-start="top 85%">
+                  <p>Subscribe to our newsletter and gain access to exclusive content and updates.</p>
+                </div>
+                <div class="w-form">
+                  <form id="wf-form-Newsletter-Form" name="wf-form-Newsletter-Form" data-name="Newsletter Form" method="get" class="u-form-inner" data-wf-page-id="6803d7c8ce55f29638587899" data-wf-element-id="65fc334b-6cc1-fae9-e3aa-49c39fd9bc56">
+                    <div class="u-hflex-left-center">
+                      <div class="vertical-s u-flex-grow"><input class="input_field w-input" maxlength="256" name="Correo" data-name="Correo" placeholder="E-mail..." type="email" id="Correo"></div>
+                      <div>
+                        <div data-wf--submit-button--size="medium" class="button_wrap w-variant-f38845a4-b399-631c-9a04-640e09f4b2c3">
+                          <div data-wf--button-style-submit--style="primary" class="button_content">
+                            <div data-wf--button-layout-submit--layout="normal" class="button_layout"><input type="submit" data-wait="Loading.." class="button_text is-submit w-button" value="Subscribe">
+                              <div class="button_icon">
+                                <div class="button_icon">
+                                  <div class="button_icon">
+                                    <div fill="none" viewbox="0 0 15 16"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 13 12" fill="none" class="u-atom-icon">
+                                        <path d="M1.86971 1.04941L6.2501 5.99951L1.86971 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                        <path d="M6.75057 1.04941L11.131 5.99951L6.75057 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                      </svg></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><label class="w-checkbox checkbox-field">
+                      <div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></div><input type="checkbox" name="Checkbox" id="Checkbox" data-name="Checkbox" required="" style="opacity:0;position:absolute;z-index:-1"><span class="u-text-style-small w-form-label" for="Checkbox">By subscribing, you agree to our <a href="#">Privacy Policy</a>.</span>
+                    </label>
+                  </form>
+                  <div class="success-message w-form-done">
+                    <div class="innerwrap-success_form">
+                      <div class="u-text-style-h5">You’re in! Thanks for subscribing — your Monthly is ready to download.</div>
+                      <a data-wf--button--size="small" href="#" class="button_wrap w-inline-block">
+                        <div data-wf--button-style--style="primary" class="button_content">
+                          <div data-wf--button-layout--layout="normal" class="button_layout">
+                            <div class="button_text">Download monthly</div>
+                            <div class="button_icon">
+                              <div class="button_slot">
+                                <div class="button_slot">
+                                  <div fill="none" viewbox="0 0 15 16"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 13 12" fill="none" class="u-atom-icon">
+                                      <path d="M1.86971 1.04941L6.2501 5.99951L1.86971 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                      <path d="M6.75057 1.04941L11.131 5.99951L6.75057 10.9504" stroke="currentColor" stroke-linecap="square"></path>
+                                    </svg></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer1_nav u-grid-subgrid u-column-5">
+                <section class="footer1_group_wrap u-column-2">
+                  <div data-delay="" class="g_paragraph w-richtext footer1_group_title u-text-style-h6 u-mb-text" data-once="" data-stagger="0.03" data-ease="sine.in" data-duration="2" data-type="alpha" data-animate="text" data-start="top 99%">
+                    <p>[legal]</p>
+                  </div>
+                  <ul role="list" class="footer1_group_list w-list-unstyled">
+                    <li class="footer1_group_item">
+                      <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                        <div class="u-link-underline-wrapper">
+                          <div class="u-link-underline-inner">
+                            <div class="u-link-underline is-left-1"></div>
+                            <div class="u-link-underline is-left-2"></div>
+                          </div>
+                          <div class="u-link-underline-inner is-right">
+                            <div class="u-link-underline is-right-1"></div>
+                            <div class="u-link-underline is-right-2"></div>
+                          </div>
+                        </div>
+                        <div class="nav_1_links_text">cookie policy</div>
+                      </a>
+                    </li>
+                    <li class="footer1_group_item">
+                      <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                        <div class="u-link-underline-wrapper">
+                          <div class="u-link-underline-inner">
+                            <div class="u-link-underline is-left-1"></div>
+                            <div class="u-link-underline is-left-2"></div>
+                          </div>
+                          <div class="u-link-underline-inner is-right">
+                            <div class="u-link-underline is-right-1"></div>
+                            <div class="u-link-underline is-right-2"></div>
+                          </div>
+                        </div>
+                        <div class="nav_1_links_text">privacy policy</div>
+                      </a>
+                    </li>
+                    <li class="footer1_group_item">
+                      <a data-delay="0" class="footer1_link_wrap w-inline-block" data-once="" data-stagger="0.05" href="#" data-ease="" data-w-id="8aedbd01-7d2a-b014-d666-f21d0a396772" data-duration="2" data-type="lines" data-start="top 85%">
+                        <div class="u-link-underline-wrapper">
+                          <div class="u-link-underline-inner">
+                            <div class="u-link-underline is-left-1"></div>
+                            <div class="u-link-underline is-left-2"></div>
+                          </div>
+                          <div class="u-link-underline-inner is-right">
+                            <div class="u-link-underline is-right-1"></div>
+                            <div class="u-link-underline is-right-2"></div>
+                          </div>
+                        </div>
+                        <div class="nav_1_links_text">Terms &amp; conditions</div>
+                      </a>
+                    </li>
+                  </ul>
+                </section>
+                <section class="footer1_group_wrap u-column-2">
+                  <div data-delay="" class="g_paragraph w-richtext footer1_group_title u-text-style-h6 u-mb-text" data-once="" data-stagger="0.03" data-ease="sine.in" data-duration="2" data-type="alpha" data-animate="text" data-start="top 99%">
+                    <p>[web by]</p>
+                  </div>
+                  <a href="http://www.apogeo.studio" target="_blank" class="w-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 46 12" fill="none" class="apogeo-link u-color-faded">
+                      <path d="M7.21335 0.574935V7.11658H6.19691V5.87249C5.95148 6.30512 5.607 6.66129 5.19707 6.90628C4.78714 7.15128 4.32574 7.27672 3.85787 7.27039C2.13327 7.27039 0.846069 5.79558 0.846069 3.84576C0.846069 1.89593 2.13327 0.418858 3.85787 0.418858C4.32594 0.412764 4.78747 0.538553 5.19742 0.783951C5.60737 1.02935 5.95174 1.38597 6.19691 1.81902V0.574935H7.21335ZM6.19691 3.84576C6.20542 3.53543 6.15582 3.22646 6.05113 2.93756C5.94644 2.64867 5.78884 2.38586 5.58786 2.16507C5.38689 1.94427 5.14673 1.77008 4.88194 1.65306C4.61715 1.53603 4.33324 1.4786 4.04741 1.48425C3.7608 1.47737 3.47589 1.53387 3.21001 1.65032C2.94413 1.76677 2.70284 1.94073 2.5008 2.16162C2.29877 2.38251 2.14021 2.64572 2.03478 2.93524C1.92934 3.22476 1.87923 3.53454 1.8875 3.84576C1.87952 4.15678 1.92984 4.46632 2.03541 4.75557C2.14097 5.04483 2.29957 5.30777 2.50157 5.52841C2.70358 5.74906 2.94477 5.92281 3.21051 6.03912C3.47624 6.15543 3.76098 6.21186 4.04741 6.205C4.33306 6.21063 4.61679 6.15327 4.88144 6.03639C5.14609 5.9195 5.38615 5.74551 5.58709 5.52496C5.78803 5.30441 5.94569 5.04188 6.05051 4.75325C6.15532 4.46462 6.20513 4.15589 6.19691 3.84576ZM32.0034 11.2402C32.003 11.211 32.0106 11.1823 32.0252 11.1579C32.0399 11.1334 32.0609 11.1142 32.0856 11.1027C32.1103 11.0912 32.1375 11.088 32.1639 11.0934C32.1903 11.0988 32.2147 11.1127 32.2338 11.1331C32.2529 11.1536 32.266 11.1798 32.2714 11.2084C32.2768 11.237 32.2743 11.2666 32.2641 11.2936C32.2539 11.3206 32.2366 11.3437 32.2143 11.36C32.192 11.3762 32.1657 11.3849 32.1388 11.3849C32.1211 11.3855 32.1034 11.3822 32.0868 11.3752C32.0703 11.3682 32.0552 11.3576 32.0426 11.344C32.0299 11.3305 32.0199 11.3143 32.0132 11.2965C32.0065 11.2786 32.0032 11.2595 32.0034 11.2402V11.2402ZM33.0928 10.7878H33.2719C33.2718 10.8489 33.2832 10.9095 33.3053 10.9657C33.3274 11.022 33.3598 11.0728 33.4005 11.1151C33.4412 11.1574 33.4893 11.1903 33.542 11.2117C33.5948 11.2332 33.651 11.2429 33.7072 11.2402C33.7602 11.2454 33.8136 11.239 33.8643 11.2213C33.9149 11.2036 33.9618 11.1751 34.002 11.1373C34.0423 11.0995 34.0751 11.0532 34.0985 11.0013C34.122 10.9495 34.1355 10.893 34.1384 10.8353C34.1384 10.6091 33.9697 10.4553 33.6635 10.3829C33.3573 10.3105 33.1303 10.0866 33.1303 9.76083C33.1329 9.68206 33.1501 9.60467 33.1809 9.5333C33.2117 9.46193 33.2554 9.39803 33.3095 9.34545C33.3635 9.29286 33.4268 9.25266 33.4955 9.22726C33.5642 9.20185 33.6369 9.19176 33.7093 9.1976C33.7837 9.19393 33.858 9.20665 33.9277 9.23499C33.9975 9.26333 34.0612 9.3067 34.1151 9.36249C34.169 9.41828 34.212 9.48534 34.2414 9.55962C34.2708 9.63391 34.286 9.71389 34.2862 9.79476H34.1071C34.1077 9.73826 34.0978 9.68223 34.0779 9.63002C34.058 9.57781 34.0286 9.53052 33.9914 9.491C33.9542 9.45147 33.9101 9.42053 33.8616 9.40004C33.8131 9.37955 33.7613 9.36993 33.7093 9.37177C33.66 9.36746 33.6103 9.37404 33.5634 9.39112C33.5165 9.40819 33.4732 9.43541 33.4363 9.47113C33.3993 9.50685 33.3693 9.55033 33.3483 9.59895C33.3272 9.64758 33.3154 9.70033 33.3136 9.75404C33.3136 9.98024 33.4614 10.1205 33.7489 10.2064C34.0988 10.2992 34.3217 10.4869 34.3217 10.8285C34.3185 10.9113 34.3 10.9926 34.2673 11.0675C34.2345 11.1424 34.1881 11.2094 34.1309 11.2643C34.0737 11.3192 34.0069 11.361 33.9344 11.3872C33.862 11.4134 33.7854 11.4234 33.7093 11.4166C33.6301 11.4215 33.5509 11.4089 33.4764 11.3794C33.4019 11.3499 33.3337 11.3042 33.276 11.2452C33.2183 11.1861 33.1722 11.1149 33.1407 11.0358C33.1093 10.9568 33.0929 10.8716 33.0928 10.7855V10.7878ZM36.3483 9.41701H35.7484V11.3714H35.5734V9.41475H34.9736V9.22926H36.3483V9.41701ZM38.7935 9.22926V11.3623H37.2147V9.22926H37.3897V11.1836H38.6207V9.22926H38.7935ZM41.5616 10.2969C41.5645 10.4383 41.5409 10.5788 41.4922 10.7099C41.4436 10.841 41.3708 10.96 41.2785 11.0596C41.1861 11.1593 41.0761 11.2375 40.9551 11.2895C40.834 11.3416 40.7045 11.3663 40.5744 11.3623H39.8245V9.22926H40.5744C40.7051 9.22552 40.8352 9.25076 40.9567 9.30346C41.0782 9.35616 41.1885 9.4352 41.2809 9.53576C41.3733 9.63632 41.4459 9.75629 41.4941 9.88832C41.5424 10.0204 41.5654 10.1617 41.5616 10.3037V10.2969ZM41.3825 10.2969C41.3857 10.1798 41.3668 10.0633 41.3272 9.95433C41.2876 9.84539 41.2279 9.74634 41.152 9.66319C41.076 9.58005 40.9852 9.51454 40.8852 9.47067C40.7852 9.42679 40.678 9.40546 40.5702 9.40796H40.0037V11.1836H40.5765C40.6831 11.1851 40.7889 11.1634 40.8876 11.1197C40.9863 11.0759 41.0759 11.0111 41.1511 10.929C41.2263 10.847 41.2855 10.7493 41.3252 10.6419C41.365 10.5345 41.3845 10.4195 41.3825 10.3037V10.2969ZM42.7676 11.3623H42.5927V9.22926H42.7676V11.3623ZM43.7965 10.2969C43.7949 10.0763 43.8536 9.8602 43.9653 9.67595C44.077 9.4917 44.2366 9.34765 44.4238 9.26209C44.611 9.17654 44.8175 9.15333 45.0168 9.19543C45.2162 9.23753 45.3996 9.34303 45.5437 9.49853C45.6877 9.65403 45.786 9.85252 45.826 10.0688C45.866 10.2851 45.8459 10.5094 45.7682 10.7132C45.6906 10.9171 45.559 11.0912 45.39 11.2137C45.221 11.3361 45.0223 11.4012 44.8192 11.4008C44.6851 11.4041 44.5518 11.3781 44.4272 11.3243C44.3025 11.2706 44.1891 11.1901 44.0937 11.0877C43.9983 10.9854 43.9228 10.8632 43.8717 10.7285C43.8207 10.5938 43.7951 10.4494 43.7965 10.3037V10.2969ZM45.6711 10.2969C45.6687 10.1186 45.6177 9.94499 45.5247 9.79799C45.4316 9.651 45.3007 9.53714 45.1482 9.47074C44.9958 9.40433 44.8287 9.38834 44.6679 9.42477C44.5071 9.4612 44.3599 9.54842 44.2446 9.67549C44.1293 9.80255 44.0512 9.96377 44.02 10.1389C43.9889 10.314 44.0061 10.4953 44.0695 10.6598C44.1329 10.8243 44.2397 10.9649 44.3764 11.0637C44.5132 11.1625 44.6737 11.2153 44.838 11.2153C45.0586 11.2129 45.2693 11.1156 45.4239 10.9447C45.5785 10.7738 45.6644 10.5433 45.6628 10.3037L45.6711 10.2969ZM15.5427 3.84576C15.5427 5.79558 14.243 7.27039 12.5184 7.27039C12.0505 7.27672 11.5891 7.15128 11.1792 6.90628C10.7692 6.66129 10.4248 6.30512 10.1793 5.87249V9.55499H9.16289V0.574935H10.1793V1.81902C10.4238 1.3873 10.7668 1.03152 11.1752 0.786192C11.5836 0.540868 12.0434 0.414332 12.51 0.418858C14.243 0.418858 15.5427 1.89593 15.5427 3.84576ZM14.5012 3.84576C14.5012 3.22484 14.2741 2.62936 13.8698 2.19031C13.4656 1.75126 12.9172 1.50461 12.3455 1.50461C11.7738 1.50461 11.2254 1.75126 10.8211 2.19031C10.4169 2.62936 10.1897 3.22484 10.1897 3.84576C10.1897 4.46667 10.4169 5.06215 10.8211 5.5012C11.2254 5.94025 11.7738 6.1869 12.3455 6.1869C12.9172 6.1869 13.4656 5.94025 13.8698 5.5012C14.2741 5.06215 14.5012 4.46667 14.5012 3.84576V3.84576ZM16.7341 3.84576C16.7236 1.89593 18.1067 0.418858 19.9375 0.418858C20.3563 0.408521 20.7728 0.489776 21.1622 0.657789C21.5515 0.825803 21.9058 1.07714 22.2039 1.39686C22.5019 1.71657 22.7378 2.09813 22.8973 2.51883C23.0569 2.93954 23.1369 3.39079 23.1326 3.84576C23.1366 4.30053 23.0564 4.75154 22.8967 5.17198C22.737 5.59242 22.5012 5.97371 22.2031 6.29318C21.905 6.61265 21.5509 6.86379 21.1617 7.03166C20.7725 7.19954 20.3562 7.28072 19.9375 7.27039C18.1067 7.27039 16.7236 5.79558 16.7236 3.84576H16.7341ZM22.0974 3.84576C22.0974 3.22484 21.8703 2.62936 21.466 2.19031C21.0617 1.75126 20.5134 1.50461 19.9417 1.50461C19.3699 1.50461 18.8216 1.75126 18.4173 2.19031C18.013 2.62936 17.7859 3.22484 17.7859 3.84576C17.7859 4.46667 18.013 5.06215 18.4173 5.5012C18.8216 5.94025 19.3699 6.1869 19.9417 6.1869C20.5134 6.1869 21.0617 5.94025 21.466 5.5012C21.8703 5.06215 22.0974 4.46667 22.0974 3.84576V3.84576ZM39.4413 3.84576C39.4413 1.89593 40.8243 0.418858 42.6551 0.418858C43.0736 0.409136 43.4897 0.490846 43.8785 0.659135C44.2674 0.827424 44.6212 1.07886 44.9188 1.39851C45.2164 1.71816 45.4519 2.09951 45.6112 2.51991C45.7705 2.94031 45.8504 3.39118 45.8461 3.84576C45.8501 4.30112 45.7697 4.7527 45.6097 5.1736C45.4496 5.5945 45.2132 5.9761 44.9144 6.29567C44.6157 6.61523 44.2608 6.86622 43.8708 7.03368C43.4809 7.20114 43.0639 7.28164 42.6447 7.27039C40.8139 7.27039 39.4309 5.79558 39.4309 3.84576H39.4413ZM44.8046 3.84576C44.8046 3.22484 44.5775 2.62936 44.1732 2.19031C43.769 1.75126 43.2206 1.50461 42.6489 1.50461C42.0772 1.50461 41.5288 1.75126 41.1245 2.19031C40.7203 2.62936 40.4931 3.22484 40.4931 3.84576C40.4931 4.46667 40.7203 5.06215 41.1245 5.5012C41.5288 5.94025 42.0772 6.1869 42.6489 6.1869C43.2206 6.1869 43.769 5.94025 44.1732 5.5012C44.5775 5.06215 44.8046 4.46667 44.8046 3.84576ZM30.7246 0.418858H27.517C25.6882 0.418858 24.3094 1.89593 24.3094 3.84349C24.3094 5.79106 25.6924 7.26813 27.5232 7.26813C27.7834 7.26738 28.0426 7.23475 28.296 7.17086L29.3374 10.3128H26.8817V11.3668H30.7183L30.3684 10.3128L29.1958 6.78407C29.6664 6.484 30.0553 6.05371 30.3228 5.53711C30.5902 5.02051 30.7267 4.43609 30.7183 3.84349C30.7272 2.96258 30.4202 2.11247 29.8623 1.47294H30.7183L30.7246 0.418858ZM27.5232 6.205C27.2366 6.21217 26.9517 6.15597 26.6857 6.0398C26.4197 5.92363 26.1783 5.74993 25.976 5.52925C25.7738 5.30857 25.615 5.04553 25.5093 4.75612C25.4036 4.46671 25.3532 4.15697 25.3612 3.84576C25.3612 3.22484 25.5884 2.62936 25.9926 2.19031C26.3969 1.75126 26.9452 1.50461 27.517 1.50461C28.0887 1.50461 28.637 1.75126 29.0413 2.19031C29.4456 2.62936 29.6727 3.22484 29.6727 3.84576C29.6809 4.15589 29.6311 4.46462 29.5263 4.75325C29.4215 5.04188 29.2639 5.30441 29.0629 5.52496C28.862 5.74551 28.6219 5.9195 28.3573 6.03639C28.0926 6.15327 27.8089 6.21063 27.5232 6.205V6.205ZM38.2832 3.46574L33.1469 4.84555C33.337 5.36114 33.695 5.78278 34.1529 6.03015C34.6107 6.27751 35.1364 6.33331 35.6297 6.1869C36.5128 5.9494 37.1252 5.26854 37.2606 4.47911H38.302C38.0791 5.75939 37.1772 6.81347 35.8442 7.17313C35.4398 7.29353 35.0172 7.32429 34.6016 7.26358C34.1861 7.20287 33.786 7.05192 33.4252 6.81974C33.0645 6.58756 32.7505 6.27889 32.5019 5.91213C32.2534 5.54536 32.0753 5.12802 31.9784 4.68495C31.8732 4.24293 31.8513 3.78239 31.9138 3.33093C31.9764 2.87946 32.1222 2.44635 32.3426 2.05753C32.5629 1.66872 32.8532 1.33219 33.1961 1.06811C33.5391 0.804027 33.9276 0.617823 34.3383 0.520647C36.115 0.04337 37.7729 1.11781 38.2041 3.00882C38.2333 3.13549 38.2666 3.34812 38.2832 3.46574ZM32.9386 3.88421L37.0335 2.78263C36.8229 2.29221 36.4619 1.89651 36.0123 1.66321C35.5627 1.4299 35.0524 1.37348 34.5687 1.50359C34.085 1.63371 33.658 1.94228 33.3607 2.37652C33.0633 2.81077 32.9142 3.34372 32.9386 3.88421V3.88421Z" fill="currentColor" class="apogeo-logo"></path>
+                    </svg></a>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div data-wf--global-section-space--section-space="main" class="g_section_space w-variant-60a7ad7d-02b0-6682-95a5-2218e6fd1490"></div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6803d7c8ce55f2963858782e" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="https://cdn.prod.website-files.com/gsap/3.13.0/gsap.min.js" type="text/javascript"></script>
+  <script src="https://cdn.prod.website-files.com/gsap/3.13.0/ScrollTrigger.min.js" type="text/javascript"></script>
+  <script src="https://cdn.prod.website-files.com/gsap/3.13.0/SplitText.min.js" type="text/javascript"></script>
+  <script src="https://cdn.prod.website-files.com/gsap/3.13.0/TextPlugin.min.js" type="text/javascript"></script>
+  <script type="text/javascript">gsap.registerPlugin(ScrollTrigger,SplitText,TextPlugin);</script>
+  <script src="https://cdn.jsdelivr.net/gh/lumosframework/scripts@v1.1.1/theme-collector.js"></script>
+  <!--  ✅ Lenis Library (bundled version 0.2.28)  -->
+  <script defer="" src="https://assets.slater.app/slater/14817/38427.js"></script>
+  <!--  ✅ Smooth Scroll Custom Class (Scroll extends Lenis + ScrollTrigger sync)  -->
+  <script defer="" src="https://assets.slater.app/slater/14817/38431.js"></script>
+  <script>
+document.addEventListener("colorThemesReady", () => {
+  $("[data-animate-theme-to]").each(function () {
+    let theme = $(this).attr("data-animate-theme-to");
+    let brand = $(this).attr("data-animate-brand-to");
+    ScrollTrigger.create({
+      trigger: $(this),
+      start: "top 10%",
+      end: "bottom 10%",
+      onToggle: ({ self, isActive }) => {
+        if (isActive) gsap.to(".nav_1_component", { ...colorThemes.getTheme(theme, brand) });
+      }
+    });
+  });
+});
+</script>
+  <script>
+window.onload = function() {
+  // Get the current year
+  const currentYear = new Date().getFullYear();
+  // Find the text element you want to display the year in
+  const textElement = document.querySelector('.textyear');
+  // Set the text of the element to the current year
+  textElement.innerHTML = currentYear;
+};
+</script>
+  <script>
+$(document).ready(function () {
+  let transitionTrigger = $(".transition-trigger");
+  let introDurationMS = 800;
+  let exitDurationMS = 800;
+  let excludedClass = "no-transition";
+  // On Page Load
+  if (transitionTrigger.length > 0) {
+    transitionTrigger.click();
+    $("body").addClass("no-scroll-transition");
+    setTimeout(() => {
+      $("body").removeClass("no-scroll-transition");
+    }, introDurationMS);
+  }
+  // On Link Click
+  $("a").on("click", function (e) {
+    let href = $(this).attr("href");
+    if (
+      !href || // Ignorar enlaces vacíos
+      $(this).prop("hostname") !== window.location.hostname || // Ignorar enlaces externos
+      $(this).attr("target") === "_blank" || // Ignorar enlaces con target _blank
+      $(this).hasClass(excludedClass) // Ignorar enlaces excluidos
+    ) {
+      return; // Salir sin bloquear el redireccionamiento
+    }
+    // Si el enlace es el mismo que la página actual
+    if (href === window.location.pathname) {
+      e.preventDefault();
+      $("body").addClass("no-scroll-transition");
+      transitionTrigger.click();
+      setTimeout(function () {
+        window.location.reload(); // Recargar la página
+      }, exitDurationMS);
+      return;
+    }
+    // Enlace interno a una ancla
+    if (href.startsWith("#")) {
+      e.preventDefault();
+      $("html, body").animate({ scrollTop: $(href).offset().top }, 500); // Scroll animado a la sección
+      return;
+    }
+    // Enlace normal con animación de transición
+    e.preventDefault();
+    $("body").addClass("no-scroll-transition");
+    let transitionURL = href;
+    transitionTrigger.click();
+    setTimeout(function () {
+      window.location = transitionURL;
+    }, exitDurationMS);
+  });
+  // On Back Button Tap
+  window.onpageshow = function (event) {
+    if (event.persisted) {
+      window.location.reload();
+    }
+  };
+  // Hide Transition on Window Width Resize
+  setTimeout(() => {
+    $(window).on("resize", function () {
+      setTimeout(() => {
+        $(".transition").css("display", "none");
+      }, 50);
+    });
+  }, introDurationMS);
+});
+</script>
+  <script>
+/** Utility Functions */
+const split = (text, type = "chars") => {
+  text.setAttribute("aria-label", text.textContent);
+  const splits = new SplitText(text, {
+    type,
+    tagName: "span",
+    lineClass: "line",
+    wordClass: "word",
+    charClass: "char"
+  });
+  splits[type].forEach((el) => el.setAttribute("aria-hidden", "true"));
+  return splits[type];
+};
+const getParams = (item) => {
+  const {
+    duration,
+    delay,
+    stagger,
+    ease,
+    type,
+    once,
+    start
+  } = item.dataset;
+  return {
+    duration: parseFloat(duration) || 1.2,
+    delay: parseFloat(delay) || 0,
+    stagger: parseFloat(stagger) || 0.04,
+    ease: ease || "expo.out",
+    type: type || "chars",
+    once: once === "true",
+    start: start || "top 80%",
+  };
+};
+const baseAnimation = (item) => {
+  const params = getParams(item);
+  return {
+    duration: params.duration,
+    delay: params.delay,
+    ease: params.ease,
+    stagger: {
+      each: params.stagger,
+      from: "start",
+    },
+    scrollTrigger: {
+      trigger: item,
+      start: params.start,
+      end: "top top",
+      once: params.once,
+      toggleActions: params.once
+        ? "play none none none"
+        : "play reverse play reverse",
+    },
+  };
+};
+/** Animaciones disponibles */
+function createSplitRevealAnimation(item) {
+  const params = getParams(item);
+  const text = split(item, params.type);
+  item.style.overflow = "hidden";
+  return gsap.fromTo(text, { yPercent: 120 }, { ...baseAnimation(item), yPercent: 0 });
+}
+function createScrambledAnimation(item) {
+  const text = item.textContent;
+  const randomText = Array(text.length).fill().map(() =>
+    String.fromCharCode(Math.floor(Math.random() * (90 - 65) + 65))
+  ).join("").toLowerCase();
+  return gsap.fromTo(item.children[0], {
+    scrambleText: randomText,
+  }, {
+    ...baseAnimation(item),
+    scrambleText: text,
+    chars: text,
+  });
+}
+function createAlphaAnimation(item) {
+  const text = split(item, "chars");
+  return gsap.fromTo(text, { autoAlpha: 0 }, {
+    ...baseAnimation(item),
+    autoAlpha: 1,
+    stagger: { each: 0.02, from: "center" },
+  });
+}
+function createSideAnimation(item) {
+  const outer = split(item, "chars");
+  outer.forEach(char => char.style.overflow = "hidden");
+  const inner = split(item.children[0], "chars");
+  return gsap.fromTo(inner, { x: 100 }, {
+    ...baseAnimation(item),
+    x: 0,
+    stagger: { each: 0.02, from: "end" },
+  });
+}
+function createUpDownAnimation(item) {
+  const outer = split(item, "chars");
+  outer.forEach(char => char.style.overflow = "hidden");
+  const inner = split(item.children[0], "chars");
+  return gsap.fromTo(inner, {
+    yPercent: (i) => (i % 2 === 0 ? 100 : -100),
+  }, {
+    ...baseAnimation(item),
+    yPercent: 0,
+    stagger: { each: 0.02, from: "random" },
+  });
+}
+function createLinesAnimation(item) {
+  const params = getParams(item);
+  const targets = item.querySelectorAll("h1, h2, h3, h4, h5, h6, p");
+  targets.forEach((target) => {
+    const lines = split(target, "lines");
+    lines.forEach(line => {
+      const inner = document.createElement("span");
+      inner.classList.add("line-inner");
+      inner.innerHTML = line.innerHTML;
+      line.innerHTML = "";
+      line.appendChild(inner);
+    });
+    gsap.fromTo(
+      target.querySelectorAll(".line-inner"),
+      { yPercent: 100, autoAlpha: 0 },
+      {
+        ...baseAnimation(item),
+        yPercent: 0,
+        autoAlpha: 1,
+        ease: params.ease,
+        stagger: {
+          each: params.stagger,
+          from: "start",
+        }
+      }
+    );
+  });
+}
+function createCascadeAnimation(item) {
+  const targets = item.querySelectorAll("h1, h2, h3, h4, h5, h6, p");
+  targets.forEach((target) => {
+    const words = split(target, "words");
+    gsap.set(words, { opacity: 0.3 });
+    gsap.to(words, {
+      opacity: 1,
+      stagger: {
+        each: 0.15,
+        from: "start",
+      },
+      ease: "none",
+      scrollTrigger: {
+        trigger: item,
+        start: "top 90%",
+        end: "top center+=10%",
+        scrub: true,
+      },
+    });
+  });
+}
+/** Nueva animación tipo bloque (div completo) */
+function createBlockAnimation(item) {
+  const params = getParams(item);
+  gsap.fromTo(
+    item,
+    {
+      y: 50,
+      opacity: 0,
+    },
+    {
+      y: 0,
+      opacity: 1,
+      duration: params.duration,
+      delay: params.delay,
+      ease: params.ease,
+      scrollTrigger: {
+        trigger: item,
+        start: params.start,
+        end: "top top",
+        once: params.once,
+        toggleActions: params.once
+          ? "play none none none"
+          : "play reverse play reverse",
+      },
+    }
+  );
+}
+/** Ejecutar */
+document.addEventListener("DOMContentLoaded", () => {
+  if (typeof gsap === "undefined" || typeof SplitText === "undefined") {
+    console.warn("❌ GSAP o SplitText no están cargados.");
+    return;
+  }
+  const texts = [...document.querySelectorAll('[data-animate="text"]')];
+  texts.forEach((item) => {
+    const type = item.dataset.type;
+    if (type === "lines") createLinesAnimation(item);
+    else if (type === "cascade") createCascadeAnimation(item);
+    else if (type === "chars" || type === "words") createSplitRevealAnimation(item);
+    else if (type === "scramble") createScrambledAnimation(item);
+    else if (type === "alpha") createAlphaAnimation(item);
+    else if (type === "side") createSideAnimation(item);
+    else if (type === "updown") createUpDownAnimation(item);
+  });
+  // Animación de bloques (divs con botones o texto)
+  const blocks = [...document.querySelectorAll('[data-animate="block"]')];
+  blocks.forEach((item) => createBlockAnimation(item));
+});
+</script>
+</body>
+</html>
